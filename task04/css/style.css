@@ -1,0 +1,80 @@
+*{margin:0;padding:0;}
+html{font-size:62.5%;}
+body{
+	background-color: #eff0f4;
+	font-family:"Microsoft Yahei",serif;
+	min-width: 320px;
+}
+header{
+	background-color: #5ac0ce;
+	position: relative;
+	width: 100%;
+	color:#fff;
+	text-align: center;
+}
+.left{
+	font-size: 3.2rem;
+	position:absolute;
+	left: 1rem;
+	top:1.2rem;
+}
+.middle{
+	font-size: 3.6em;
+	padding:1rem;
+	letter-spacing: 1rem;
+}
+.right{
+	font-size: 3.2rem;
+	position:absolute;
+	right: 1rem;
+	top:1rem;
+}
+form ul{
+	padding-bottom: 6rem;
+}
+form ul li{
+	margin-top: 1.5rem;
+	background-color: #fff;
+	padding:1.5rem 0;
+}
+form label{
+	width: 5%;
+	padding:0 1.5%;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+}
+form label img{
+	max-width: 100%;
+}
+form ul input{
+	width: 85%;
+	border:none;
+	border-left:1px solid #eaedee;
+	padding-left: 3%;
+	font-size: 3.2rem;
+	vertical-align: middle;
+	color:#eaeddd;
+	outline: none;
+}
+.button
+{	width:100%;
+	padding:2rem;
+	border:none;
+	background-color: #5fc0ce;
+	font-size: 3.6rem;
+	font-family: "Microsoft Yahei",serif;
+	color:#fff;
+	letter-spacing: 1rem;
+}
+.forget{
+	font-size: 3.2rem;
+	color:#5fc0ce;
+	margin:2%;
+	float:right;
+	font-family: "SimSun"
+}
+@media screen and (max-width: 540px)
+ {
+ 	html{font-size: 50%;}
+}
