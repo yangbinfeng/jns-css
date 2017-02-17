@@ -1,0 +1,137 @@
+*{margin:0;  padding:0;}
+ul,li{list-style: none;}
+html{
+    font-size: 62.5%;
+}
+body{
+    max-width:800px;
+    min-width:320px;
+    margin:0 auto;
+    background-color: #feffff;
+    font-family:"Microsoft Yahei",SansSerif;
+}
+header{
+    width:100%;
+    background-color: #5ac0ce;
+    font-size: 3.5rem;
+    color:#fff;
+    padding:1rem 0;
+    text-align: center;
+}
+header img{
+    max-width: 100%;
+    vertical-align: middle;
+    float:left;
+    margin-left:2rem;
+}
+header span{
+    vertical-align: middle;
+}
+.background{
+    width:100%;
+    background: url("file:///F:/codingfiles/jns/jns-css/task05/img/task2.png") ;/*要用相对路径?*/
+    background-size: cover;
+    padding:10% 0;
+}
+.headportrait{
+    background:#fff url(file:///F:/codingfiles/jns/jns-css/task05/img/task1.png) 
+    no-repeat center bottom;
+        background-size: 70%; 
+    width:20%;
+    padding:10% 0;
+    border-radius: 50%;
+    display: inline-block;
+    margin:0 5% 0 3%;
+    vertical-align: middle;
+}
+.background .introduce{
+    width:70%;
+    display: inline-block;
+    vertical-align: middle;/*vertical-align和padding与margin的关系*/
+}
+.background .introduce p{
+    font-size: 3rem;
+    word-spacing: 1.5rem;
+    margin-bottom: 1rem;
+}
+.background .introduce .address{
+    font-size: 2rem;
+}
+.background .introduce img{
+    max-width: 100%;
+    padding-right: 0.5rem;
+}
+.content .title{
+    width: 100%;
+    padding:3rem 0;
+    border-bottom:0.1rem solid #eef2f2; 
+}
+.content .title div{
+    font-size: 3.2rem;
+    padding-left: 5%;
+    margin-left: 3%;
+    border-left: 0.5rem solid #79cbd5;
+
+}
+.treatment{
+    font-size: 3rem;
+    border-bottom: 0.1rem solid #eef2f2;
+    margin-left: 3%;
+    padding:2rem 5%;
+}
+.treatment li{
+    display: inline;
+}
+.treatment li img{
+    max-width: 100%;
+}
+
+.separator{
+    width: 0.1rem;
+    height:2.8rem;
+    margin:0 2.2rem;
+    display: inline-block;
+    background-color: #eef2f2;
+    vertical-align: middle;
+} 
+.condition{
+    font-size: 3.2rem;
+
+}
+.condition li{
+    padding:2rem 5%;
+    margin:0 3%;
+    border-bottom:0.1rem solid #eef2f2;  
+}
+.condition .qulification{
+    color:#9fa0a3;
+}
+.condition .stress{
+    color:red;
+}
+.condition .self-con{
+    display: inline-block;
+    width:70%;
+    font-size: 2.5rem;
+    vertical-align: middle;
+}
+footer button{
+    width: 40%;
+    margin:10% 2% 0 3%;
+     border-radius: 0.8rem;
+     padding:1rem 5%;
+     border:0.2rem solid #5ac0ce;
+     font-size: 3.5rem;
+     font-weight: bold;
+}
+footer .word{
+    color:#5ac0ce;
+    background-color: #fff;
+}
+footer .phone{
+    color:#fff;
+    background-color: #5ac0ce
+
+}
+
+
