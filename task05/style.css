@@ -16,20 +16,22 @@ header{
     font-size: 3.5rem;
     color:#fff;
     padding:1rem 0;
-    text-align: center;
+    position: relative;
 }
 header img{
     max-width: 100%;
     vertical-align: middle;
-    float:left;
-    margin-left:2rem;
+    margin-left: 2rem;
 }
 header span{
+    position:absolute;
+    left:50%;
+    margin-left: -7rem;
     vertical-align: middle;
 }
 .background{
     width:100%;
-    background: url("file:///F:/codingfiles/jns/jns-css/task05/img/task2.png") ;/*要用相对路径?*/
+    background: url("img/task2.png") ;/*要用相对路径?*/
     background-size: cover;
     padding:10% 0;
 }
