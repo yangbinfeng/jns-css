@@ -20,13 +20,12 @@ header{
 }
 header img{
     max-width: 100%;
-    vertical-align: middle;
     margin-left: 2rem;
 }
 header span{
     position:absolute;
     left:50%;
-    margin-left: -7rem;
+    transform:translate(-50%,0); 
     vertical-align: middle;
 }
 .background{
@@ -34,6 +33,7 @@ header span{
     background: url("img/task2.png") ;/*要用相对路径?*/
     background-size: cover;
     padding:10% 0;
+    overflow: hidden;
 }
 .headportrait{
     background:#fff url(img/task1.png) 
@@ -91,7 +91,7 @@ header span{
 .separator{
     width: 0.1rem;
     height:2.8rem;
-    margin:0 2.2rem;
+    margin:0 3%;
     display: inline-block;
     background-color: #eef2f2;
     vertical-align: middle;
@@ -113,13 +113,12 @@ header span{
 }
 .condition .self-con{
     display: inline-block;
-    width:70%;
+    width:60%;
     font-size: 2.5rem;
     vertical-align: middle;
 }
 footer button{
     width: 40%;
-    margin:10% 2% 0 3%;
      border-radius: 0.8rem;
      padding:1rem 5%;
      border:0.2rem solid #5ac0ce;
@@ -129,11 +128,24 @@ footer button{
 footer .word{
     color:#5ac0ce;
     background-color: #fff;
+    margin:10% 2% 0 3%;
 }
 footer .phone{
     color:#fff;
-    background-color: #5ac0ce
-
+    background-color: #5ac0ce;
+    margin:10% 3% 0 2%;
+}
+@media screen and (max-width: 520px){
+    html{font-size: 50%;}
+    .condition .self-con{
+        min-width:160px;
+    }
+    footer .word{
+        font-size: 3rem;
+    }
+    footer .phone{
+        font-size: 3rem
+    }
 }
 
 
