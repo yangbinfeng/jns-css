@@ -1,0 +1,13 @@
+html{
+    font-size: 100px;
+}
+body{
+    margin: 0 auto;
+    max-width: 640px;
+    min-width: 320px;
+    font-size: .33rem;
+    font-family: "Microsoft Yahei",sans-serif;
+}
+@media screen and (max-width: 520px){
+    html{font-size: 70px;}
+}

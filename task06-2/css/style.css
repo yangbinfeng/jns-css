@@ -1,0 +1,125 @@
+body{
+    width:100%;
+    background-color: #29bde0;
+}
+header{
+    overflow: hidden;
+    width:100%;
+    height: .70rem;
+    font-size: .34rem;
+    text-align: center;
+    line-height: .70rem;
+    background-color: #29bde0;
+}
+.img-max-width{
+    max-width: .44rem;
+}
+.header .img-max-width img {
+    max-width: 100%;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.audio{
+    width: 100%;
+    height: .82rem;
+    font-size: .26rem;
+    line-height: .82rem;
+    background-color: #bde9f5;
+}
+.audio button{
+    background-color: transparent;
+    border:none;
+    float: right;
+}
+.click-out {
+    position: relative;
+    width: 100%;
+    height: .74rem;
+    font-size: .24rem;
+}
+.click-out .down-triangle{
+    position: absolute;
+    top: 0;
+    left:10.938%;
+    width: 0;
+    height: 0;
+    border-top: .13rem solid #bde9f5;
+    border-bottom: .13rem solid transparent;
+    border-left: .26rem solid transparent;
+    border-top: .26rem solid transparent;
+}
+.container{
+    width: 100%;
+    padding: 0 6.56%;
+}
+.container .row{
+    overflow: hidden;
+    margin-top: .22rem;
+}
+.container .row .col-xs-4{
+    text-align: center;
+}
+.container .row .col-xs-4 .box{
+    width: 68%;
+    height: 1.26rem;
+    display: inline-block;
+    border: .05rem solid #fff;
+}
+.container .col-xs-4 .box .identity{
+    display: inline-block;
+    width: 100%;
+    height: 1rem;
+    font-size: .30rem;
+    line-height: 1rem;
+    text-align: center;
+    background-color: #f5c97b;
+}
+.container .col-xs-4 .box .number{
+    display: inline-block;
+    width:100%;
+    height: .26rem;
+    font-size: .22rem;
+    line-height: .26rem;
+    color: #fff;
+    background-color: #83b09a;
+}
+.container .col-xs-4 .box-option {
+    display: none;
+    margin-top: .22rem;
+    width: 100%
+}
+.container .col-xs-4 .box-option li {
+    display: inline-block;
+    margin-right: .04rem;
+    max-width: .30rem;
+}
+.container .col-xs-4 .box-option .cure{
+    margin-right: 0;
+}
+.container .col-xs-4 .box-option li img{
+    max-width:100%;
+}
+.container .col-xs-4 .box:hover .box-option{
+    display: block;
+}
+footer{
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    height: 1.9rem;
+    border-top: .02rem solid #fff;
+    padding: .42rem 11.4% .61rem 12.18%;
+    background-color: #29bde0;
+}
+footer .btn{
+    width: 100%;
+    height: .86rem;
+    font-size: .41rem;
+    line-height:.86rem;
+    background-color: #fbb435;
+}
+
