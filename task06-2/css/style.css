@@ -1,6 +1,7 @@
-body{
+.wrap{
     width:100%;
     background-color: #29bde0;
+    overflow-y: scroll;
 }
 header{
     overflow: hidden;
@@ -9,13 +10,16 @@ header{
     font-size: .34rem;
     text-align: center;
     line-height: .70rem;
+    color: #fff;
     background-color: #29bde0;
 }
 .img-max-width{
+    display: inline-block;
     max-width: .44rem;
 }
-.header .img-max-width img {
+header .img-max-width {
     max-width: 100%;
+    padding: 0 .22rem;
 }
 .float-left{
     float: left;
@@ -30,27 +34,31 @@ header{
     line-height: .82rem;
     background-color: #bde9f5;
 }
+.audio span{
+    margin-left: .46rem;
+}
 .audio button{
-    background-color: transparent;
-    border:none;
     float: right;
+    border:none;
+    margin-right: .16rem;
+    background-color: transparent;
 }
 .click-out {
-    position: relative;
     width: 100%;
     height: .74rem;
     font-size: .24rem;
 }
 .click-out .down-triangle{
-    position: absolute;
-    top: 0;
-    left:10.938%;
+    margin-left: 10.938%;
     width: 0;
     height: 0;
     border-top: .13rem solid #bde9f5;
-    border-bottom: .13rem solid transparent;
+    border-bottom: .13rem solid #bde9f5;
     border-left: .26rem solid transparent;
     border-top: .26rem solid transparent;
+}
+.click-out p{
+    padding-left: 10.94%;
 }
 .container{
     width: 100%;
@@ -58,19 +66,26 @@ header{
 }
 .container .row{
     overflow: hidden;
-    margin-top: .22rem;
+    margin: .22rem 0 0 0;
+
 }
 .container .row .col-xs-4{
-    text-align: center;
+    padding: 0;
 }
 .container .row .col-xs-4 .box{
+    display: inline-block;
     width: 68%;
-    height: 1.26rem;
-    display: inline-block;
+    height: 1.36rem;
     border: .05rem solid #fff;
+    text-align: center;
 }
-.container .col-xs-4 .box .identity{
-    display: inline-block;
+.box-middle {
+    text-align: center;
+}
+.box-right {
+    text-align: right;
+}
+.container .col-xs-4 .box .identity {
     width: 100%;
     height: 1rem;
     font-size: .30rem;
@@ -78,8 +93,7 @@ header{
     text-align: center;
     background-color: #f5c97b;
 }
-.container .col-xs-4 .box .number{
-    display: inline-block;
+.container .col-xs-4 .box .number {
     width:100%;
     height: .26rem;
     font-size: .22rem;
@@ -88,23 +102,26 @@ header{
     background-color: #83b09a;
 }
 .container .col-xs-4 .box-option {
-    display: none;
-    margin-top: .22rem;
+    overflow: hidden;
+    margin-top: .27rem;
+    visibility: hidden;
     width: 100%
 }
 .container .col-xs-4 .box-option li {
-    display: inline-block;
+    float: left;
     margin-right: .04rem;
-    max-width: .30rem;
+    max-width: .25rem;
+    font-size: 0;
 }
 .container .col-xs-4 .box-option .cure{
     margin-right: 0;
 }
 .container .col-xs-4 .box-option li img{
     max-width:100%;
+    font-size: 0;
 }
-.container .col-xs-4 .box:hover .box-option{
-    display: block;
+.container .col-xs-4 .box:hover .box-option li{
+    visibility: visible;
 }
 footer{
     position:fixed;
