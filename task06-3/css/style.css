@@ -1,0 +1,145 @@
+header {
+	overflow: hidden;
+	border-bottom: .01rem solid #74d4eb;
+	padding: 0 3.125%;
+	width: 100%;
+	height: .7rem;
+	text-align: center;
+	line-height: .7rem;
+	background-color: #29bde0;
+}
+.float-left {
+	float:left;
+
+}
+.float-right {
+	float: right;
+}
+.img-wrap-l {
+	display:inline-block;
+	width: 7.8%;
+	line-height: .58rem;
+}
+.img-wrap-r {
+	display: inline-block;
+	width: 6.25%;
+	line-height: .58rem;
+}
+header img {
+	max-width: 100%;
+}
+header span {
+	font-size: .34rem;
+	color:#fff;
+}
+.content {
+	width: 100%;
+	padding: 0 11.87%;
+	background-color: #29bde0;
+}
+.outcome {
+	padding-top: 1.64rem;
+	width: 100%;
+	background: url(../img/victory.png) 
+	no-repeat center .24rem;
+	background-size: 3.51rem 2.05rem;
+}
+.outcome .winner {
+	text-align: center;
+	font-size: .45rem;
+	line-height: .45rem;
+	font-weight: 500;
+	color: #fff;
+}
+.outcome p {
+	margin: .2rem 0 0 0;
+	font-size: .33rem;
+	font-weight: 400;
+	color: #ffc865;
+}
+.game-info {
+	padding: .6rem 0 .20rem 0;
+	font-size: .26rem;
+	font-weight: 300;
+	line-height: .40rem;
+	color: #fff;
+}
+.id-num li {
+	float: left;
+	margin-right: .45rem;
+}
+.clear-float {
+	width: 100%;
+	clear: both;
+}
+.detail-info {
+	width: 100%;
+	background-color: #fffff6;
+}
+.detail-info .day-info{
+	width: 100%;
+	border-bottom: .01rem solid #dddddd;
+	overflow: hidden;
+}
+.detail-info .day-wrap{
+	width: 76.25%;
+	margin: 0 auto;
+}
+.detail-info .head {
+	margin: 0 0 .1rem 0;
+	font-size: .30rem;
+	line-height: .52rem;
+}
+.detail-info p {
+	margin-bottom: .17rem;
+	font-size: .26rem;
+	line-height: .38rem;
+	color: #b5b5b5;
+}
+.time {
+	float: right;
+	margin: .22rem 4% 0 0;
+	font-size: .20rem;
+	color: #c7c7c7;
+}
+.detail-info .current-day {
+	border-top: .01rem solid #dddddd;
+	width: 100%;
+	height: .70rem;
+	color: #29bde0;
+	line-height: .70rem;
+}
+.detail-info .current-day h3 {
+	display: inline-block;
+	margin: 0 0 0 5.31%;
+	font-size: .40rem;
+	line-height: .70rem;
+}
+.detail-info .current-day span {
+	float: right;
+	margin-right: 6.25%;
+	font-size: .27rem;	
+	line-height: .70rem;
+}
+footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	height: 1.28rem;
+	background-color:  rgba(152,222,239,0.7);
+}
+footer .btn {
+	margin: .24rem 3.75% .20rem 3.75%;
+	padding: 0;
+	width: 41.5%;
+	height: .86rem;
+	font-size: .40rem;
+	color: #fff;
+}
+footer .again {
+	background-color: #f66f6f;
+}
+footer .share {
+	background-color: #fbb435;
+	
+}

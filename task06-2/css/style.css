@@ -108,19 +108,32 @@ header .img-max-width {
     width: 100%
 }
 .container .col-xs-4 .box-option li {
+    overflow: hidden;
     float: left;
     margin-right: 3%;
     width: 22%;
     font-size: 0;
 }
-.container .col-xs-4 .box-option .cure{
-    margin-right: 0;
+.container li i {
+    background: url(../img/sprite.png) no-repeat;
+    float: left;
+    width: 100%;
+    height: .3rem;
 }
-.container .col-xs-4 .box-option li img{
-    max-width:100%;
-    font-size: 0;
+ .box .box-option .cat-1 i{
+    background-position: 0 0;
 }
-.container .col-xs-4 .box:hover .box-option li{
+.box .box-option .cat-2 i{
+    background-position: -.35rem 0;
+}
+.box .box-option .cat-3 i{
+    background-position: -.70rem 0;
+}
+.box .box-option .cat-4 i{
+    background-position: -1.05rem 0;
+}
+
+.container .col-xs-4 .box:hover .box-option{
     visibility: visible;
 }
 footer{
@@ -131,6 +144,10 @@ footer{
     border-top: .02rem solid #fff;
     padding: .42rem 11.4% .61rem 12.18%;
     background-color: #29bde0;
+}
+footer a{
+    display: inline-block;
+    width: 100%;
 }
 footer .btn{
     width: 100%;
