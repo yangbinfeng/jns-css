@@ -113,7 +113,6 @@
      text-align: center;
      box-shadow: .01rem .01rem #cfcfcf;
      background-color: #fff;
-
  }
  .stu-show .row .col-xs-3 img {
      max-width: 1.05rem;
@@ -148,6 +147,7 @@
  }
  .co-operate{
      padding: 0 10%;
+     overflow: hidden;
  }
  .co-operate h4 {
      margin: 1.22rem 0 .6rem 0;
@@ -155,16 +155,22 @@
      font-weight: 700;
      text-align: center;
  }
+ .co-operate ul {
+     background-color: #fff;
+ }
  .co-operate ul li {
-     display: inline-block;
+     float: left;
      width: 19.5%;
+     margin-right: 0.1%;
      padding: .52rem 4.37%;
+     font-size: 0;
      background-color: #fff;
  }
  .co-operate ul li img {
      max-width:100%;
  }
  .co-operate ul li:hover {
+     z-index: 1000;
      box-shadow: .01rem .01rem .02rem #cfcfcf;
  }
  .link{
@@ -179,27 +185,42 @@
  .link ul li {
      display: inline-block;
      width: 9.5%;
+     height: .58rem;
      padding: .08rem 3% .08rem 0;
      font-size: .14rem;
      background-color: #fff;
+ }
+ .link ul li a {
+     color: #000;
+     text-decoration:none;
  }
  .link ul li .circle{
      display: inline-block;
      width: .04rem;
      height: .04rem;
      border-radius: 50%;
+     vertical-align: middle;
      background-color: #999;
  }
  .link ul li:hover {
      border-bottom: .02rem solid #1ba36d;
  }
  footer{
-     padding: 0 10%;
      background-color: #1ba36d;
+ }
+ footer a {
+     text-decoration: none;
+     color: #fff;
+ }
+ footer a:hover {
+     color: #fff;
+     text-decoration: none;
  }
  footer .footer-left {
      display: inline-block;
-     width:30%
+     width:25%;
+     margin-left: 10%;
+     margin-bottom: .30rem;
  }
  footer  h4 {
      padding: .38rem 0 .12rem 0;
@@ -209,10 +230,17 @@
  }
  footer .footer-left span {
      display: inline-block;
-     margin-top: .52rem;
+     margin-top: .56rem;
+     height: .26rem;
      font-size: .14rem;
      color: #fff;
+ }
+ footer .footer-left span a {
+     display: inline-block;
      line-height: .24rem;
+ }
+ footer .footer-left span a:hover {
+     border-bottom: .02rem solid #fff;
  }
  footer .footer-middle{
      display: inline-block;
@@ -220,16 +248,21 @@
  }
  footer .footer-middle li {
      display: inline-block;
-     padding: .15rem .34rem 0 0;
+     margin: .15rem .34rem 0 0;
+     height: .26rem;
      font-size: .14rem;
      line-height: .24rem;
      color: #fff;
  }
- footer .footer-right{
-     display: inline-block;
-     width: 25%;
+ footer .footer-middle li:hover {
+     border-bottom: .02rem solid #fff;
  }
- 
+ footer .footer-right{
+     margin: -.1rem 10% 0 0;
+     display: inline-block;
+     width: 15%;
+     vertical-align: top;
+ }
 footer .copy-right {
     border-top: .01rem solid #23ba7f;
     line-height: .30rem;

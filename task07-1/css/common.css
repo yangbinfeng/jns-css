@@ -62,14 +62,19 @@ header .header-nav {
 }
 .header-nav .nav > li {
 	float: right;
-	padding: .42rem 0 .42rem 6%;
-}
-.header-nav .nav > li:hover {
-	background-color: transparent;
-	border-bottom: .02rem solid #fff;
+	padding: .42rem 3% .41rem 3%;
 }
 .header-nav .nav > li > a {
+	border: none;
+	margin: 0;
 	padding: 0;
 	font-size: .16rem;
 	color: #fff;
+}
+.header-nav  .nav > li:hover {
+	background-color: #29b078;
+	border-bottom: .03rem solid #fff;
+}
+.header-nav  .nav > li >a:hover {
+	background-color: #29b078;
 }
