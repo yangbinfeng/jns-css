@@ -1,0 +1,145 @@
+html{
+    font-size: 100px;
+}
+body{
+	width: 100%;
+    font-family: "Microsoft Yahei",sans-serif;
+	background-color: #fafafa;
+}
+@media screen and (max-width: 520px){
+    html{font-size: 70px;}
+}
+.disp-ib{
+	display: inline-block;
+}
+.of-hidden{
+	overflow: hidden;
+}
+.content-wrap{
+	padding: 0 12%;
+}
+header .header-top{
+	font-size: .16rem;
+	height: .42rem;
+	line-height: .42rem;
+	color: #29b078;
+}
+.header-top .header-icon {
+	overflow: hidden;
+	max-width: 1.5rem;
+	width:30%;
+}
+.header-top .header-icon li {
+	overflow: hidden;
+	float: right;
+	width: 23%;
+	margin-left: 6%;
+}
+.header-top .header-icon li img {
+	max-width: .25rem
+}
+.float-left{
+	float: left
+}
+.float-right{
+	float: right;
+}
+header .header-nav {
+	padding:0 12% 0 8%;
+	height: 1.07rem;
+	background-color: #29b078;
+}
+.header-nav .nav {
+	overflow: hidden;
+	width: 60%;
+	border:none;
+}
+.header-nav .logo {
+	line-height: 1.07rem;
+}
+.header-nav .logo img {
+	max-width: 1.7rem;
+}
+.header-nav .nav > li {
+	float: right;
+	padding: .42rem 3% .41rem 3%;
+}
+.header-nav .nav > li > a {
+	border: none;
+	margin: 0;
+	padding: 0;
+	font-size: .16rem;
+	color: #fff;
+}
+.header-nav  .nav > li:hover {
+	background-color: #29b078;
+	border-bottom: .03rem solid #fff;
+}
+.header-nav  .nav > li >a:hover {
+	background-color: #29b078;
+}
+footer{
+     background-color: #1ba36d;
+ }
+ footer a {
+     text-decoration: none;
+     color: #fff;
+ }
+ footer a:hover {
+     color: #fff;
+     text-decoration: none;
+ }
+ footer .footer-left {
+     display: inline-block;
+     width:25%;
+     margin-left: 10%;
+     margin-bottom: .30rem;
+ }
+ footer  h4 {
+     padding: .38rem 0 .12rem 0;
+     font-size: .16rem;
+     color: #fff;
+     margin: 0;
+ }
+ footer .footer-left span {
+     display: inline-block;
+     margin-top: .56rem;
+     height: .26rem;
+     font-size: .14rem;
+     color: #fff;
+ }
+ footer .footer-left span a {
+     display: inline-block;
+     line-height: .24rem;
+ }
+ footer .footer-left span a:hover {
+     border-bottom: .02rem solid #fff;
+ }
+ footer .footer-middle{
+     display: inline-block;
+     width: 35%;
+ }
+ footer .footer-middle li {
+     display: inline-block;
+     margin: .15rem .34rem 0 0;
+     height: .26rem;
+     font-size: .14rem;
+     line-height: .24rem;
+     color: #fff;
+ }
+ footer .footer-middle li:hover {
+     border-bottom: .02rem solid #fff;
+ }
+ footer .footer-right{
+     margin: -.1rem 10% 0 0;
+     display: inline-block;
+     width: 15%;
+     vertical-align: top;
+     float: right;
+ }
+footer .copy-right {
+    border-top: .01rem solid #23ba7f;
+    line-height: .30rem;
+    text-align: center;
+    font-size: .12rem;
+}
