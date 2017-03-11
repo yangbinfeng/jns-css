@@ -95,6 +95,9 @@
  .step .row .col-xs-3 img{
      max-width: .3rem;
  }
+ .step .row .col-xs-3 .num-4 img{
+     display: none;
+ }
  .stu-show {
      padding: 0 10%;
      width: 100%;
@@ -146,7 +149,7 @@
      box-shadow: none;
  }
  .co-operate{
-     padding: 0 10%;
+     padding: 0 1%;
      overflow: hidden;
  }
  .co-operate h4 {
@@ -170,7 +173,6 @@
      max-width:100%;
  }
  .co-operate ul li:hover {
-     z-index: 1000;
      box-shadow: .01rem .01rem .02rem #cfcfcf;
  }
  .link{
@@ -185,7 +187,7 @@
  .link ul li {
      display: inline-block;
      width: 9.5%;
-     height: .58rem;
+     height: .60rem;
      padding: .08rem 3% .08rem 0;
      font-size: .14rem;
      background-color: #fff;
@@ -203,70 +205,6 @@
      background-color: #999;
  }
  .link ul li:hover {
-     border-bottom: .02rem solid #1ba36d;
+     border-bottom: .025rem solid #1ba36d;
  }
- footer{
-     background-color: #1ba36d;
- }
- footer a {
-     text-decoration: none;
-     color: #fff;
- }
- footer a:hover {
-     color: #fff;
-     text-decoration: none;
- }
- footer .footer-left {
-     display: inline-block;
-     width:25%;
-     margin-left: 10%;
-     margin-bottom: .30rem;
- }
- footer  h4 {
-     padding: .38rem 0 .12rem 0;
-     font-size: .16rem;
-     color: #fff;
-     margin: 0;
- }
- footer .footer-left span {
-     display: inline-block;
-     margin-top: .56rem;
-     height: .26rem;
-     font-size: .14rem;
-     color: #fff;
- }
- footer .footer-left span a {
-     display: inline-block;
-     line-height: .24rem;
- }
- footer .footer-left span a:hover {
-     border-bottom: .02rem solid #fff;
- }
- footer .footer-middle{
-     display: inline-block;
-     width: 35%;
- }
- footer .footer-middle li {
-     display: inline-block;
-     margin: .15rem .34rem 0 0;
-     height: .26rem;
-     font-size: .14rem;
-     line-height: .24rem;
-     color: #fff;
- }
- footer .footer-middle li:hover {
-     border-bottom: .02rem solid #fff;
- }
- footer .footer-right{
-     margin: -.1rem 10% 0 0;
-     display: inline-block;
-     width: 15%;
-     vertical-align: top;
- }
-footer .copy-right {
-    border-top: .01rem solid #23ba7f;
-    line-height: .30rem;
-    text-align: center;
-    font-size: .12rem;
-}
 
