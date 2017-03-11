@@ -1,7 +1,5 @@
-.banner {
-	background: url(../img/banner.png) no-repeat;
-	background-size: contain;
-	height: 250px;
+.banner img {
+	max-width: 100%;
 }
 .content {
 	overflow: hidden;
@@ -54,7 +52,7 @@
 	font-size: .14rem;
 	color: #29b078;
 }
-.content .content-left ul li:hover {
+.content .content-left ul li:hover a {
 	color: #fba36d;
 }
 .content .content-right {
@@ -70,6 +68,7 @@
 .content .intro-brief {
 	background-color: #fff;
 	border-bottom: .01rem solid #e6e6e6;
+	box-shadow: .01rem .01rem .02rem #eeeded;
 }
 .content .intro-brief img{
 	display: inline-block;

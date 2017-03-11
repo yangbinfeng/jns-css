@@ -8,6 +8,45 @@
 	<link rel="stylesheet" href="css/common.css">
 	<link rel="stylesheet" href="css/style.css">
 	<title>修真院首页</title>
+	<style>
+	@media screen and (max-width: 768px) {
+    .navbar-toggle {
+        padding: 10px 10px;
+    }
+    .navbar-collapse .nav {
+    	float: none;
+    	height: auto;
+    }
+    .navbar-collapse .nav li {
+        float: none;
+        display: block;
+        text-align: center;
+        padding:.1rem;
+    }
+	.content .content-left {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.content .content-left h4{
+		padding: 0;
+		text-align: center;
+	}
+	.content .content-left ul {
+		display: inline-block;
+		padding: 0;
+		text-align: left;
+	} 
+	.content .content-right {
+		float: none;
+		width: 100%;
+	}
+	.content .intro-brief {
+		margin-top: .5rem;
+		width: 100%;
+	}
+}
+	</style>
 </head>
 <body>
 	<header>		
@@ -19,17 +58,28 @@
 					<li><img src="img/weibo.png" alt="微博"></li>
 				</ul>
 			</div>
-			<nav class="header-nav">
-				<span class="logo"><img src="img/logo.png" alt="葡萄藤logo"></span>
-				<ul class="nav nav-tabs float-right">
-					<li class="acitve"><a href="">首页</a></li>
-					<li><a href="">职业</a></li>
-					<li><a href="">推荐</a></li>
-					<li><a href="">关于</a></li>
-				</ul>
-			</nav>
+			<nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">职业</a></li>
+                    <li><a href="#">推荐</a></li>
+                    <li><a href="#">关于</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 	</header>
-	<div class="banner"></div>
+	<div class="banner"><img src="img/banner.png" alt="背景图"></div>
 	<div class="content">
 		<h4>首页><span>合作企业</span></h4>
 		<div class="content-left">
@@ -98,3 +148,5 @@
 			Copyright © 2015技能树 www.jnshu.com  All Rights Reserved | 京ICP备13005880号
 		</div>
 	</footer>
+	<script src="libs/jquery.min.js"></script>
+	<script src="libs/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
