@@ -1,0 +1,155 @@
+.content {
+     margin: 0 5% 2.36rem 5%;
+}
+.content .index {
+     font-size: .16rem;
+     line-height: .82rem;
+     border-bottom: .015rem solid #d0d6d9;
+}
+.content .index span {
+     font-size: .15rem;
+     color: #1db176;
+}
+.content .direction {
+     border-bottom: .01rem solid #edf1f2;
+}
+.content .direction h5 {
+     display: inline-block;
+     padding-right: .24rem;
+     font-size: .14rem;
+     line-height: .6rem;
+     color: #999;
+}
+.content .direction ul {
+     display: inline-block;
+}
+.content .direction ul li {
+     display: inline-block; 
+     margin-right: .3rem; 
+     line-height: .6rem;
+}
+.content .direction ul li a {
+     font-size: .15rem;
+     color: #000;
+}
+.content .direction ul li a:hover {
+     text-decoration: none;
+     color: #fff;
+     background-color: #1db176;
+}
+.container {
+     margin: 0;
+     padding: 0;
+}
+@media screen and (min-width: 320px) {
+     .container {
+          width: 100%;
+     } 
+ } 
+.container h4 {
+     font-size: .16rem;
+     font-weight: 600;
+     line-height: .8rem;
+     border-bottom: .02rem solid #e3e6e8;
+}
+.container .col-xs-4 {
+     width: 31%;
+     margin: .48rem 2% 0 0;
+}
+.container .col-xs-4 {
+     padding: 0;
+     box-shadow: .01rem .01rem .02rem #e5e4e4;
+     background-color: #fff;
+}
+.container .col-xs-4 figure {
+     overflow: hidden;
+     padding: .2rem 3.5%;
+}
+.container .col-xs-4 .figure-img {
+     display: inline-block;
+     float: left;
+     width: 36%
+}
+.container .col-xs-4 .figure-img img {
+     max-width: 100%;
+}
+.container .col-xs-4 figcaption {
+     float: left;
+     margin-left: 4%;
+     font-size: .16rem;
+     font-weight: 600;
+     line-height: .48rem;
+}
+.container .col-xs-4 figure p {
+     float: right;
+     margin-left: 3%;     
+     width: 60%;
+     font-size: .14rem;
+     font-weight: 500;
+}
+.container .col-xs-4 ul {
+     overflow: hidden;
+}
+.container .col-xs-4 ul li {
+     float: left;
+     margin-top: -.01rem;
+     width: 50%;
+     border: .01rem solid #edf1f2;
+     line-height: .4rem;
+}
+.container .col-xs-4 strong {
+     color: #ff0000;
+}
+.container .col-xs-4 ul li span {
+     margin-left: .1rem;
+     color: #ababab;
+}
+.container .col-xs-4 ul li img {
+     margin-left: .12rem;
+}     
+.container .col-xs-4 .salary {
+     border-bottom: .01rem solid #edf1f2;
+}
+.col-xs-4 .salary h4 {
+     display: inline-block;
+     border: none;
+     width: 40%;
+     font-size: .14rem;
+     font-weight: normal;
+     text-align: center;
+     line-height: 1.06rem;
+     color: #999;
+}
+.col-xs-4 .salary ul {
+     overflow: hidden;
+     display: inline-block;
+     float: right;
+     margin-top: -.01rem;
+     width: 60%
+}
+.col-xs-4 .salary ul li {
+     margin-top: -.01rem;
+     width: 100%;
+     line-height: .35rem;
+}
+.col-xs-4 .salary ul li span {
+     margin-left: 10%;
+}
+.col-xs-4 .salary ul li .monthly-pay {
+     float: right;
+     margin-right: 5%;
+}
+.col-xs-4 .study-num {
+     padding-left: .1rem;
+     border-bottom: .01rem solid #edf1f2;
+     font-size: .16rem;
+     font-weight: 600;
+     line-height: .40rem;
+}
+.col-xs-4 .fundation {
+     padding-left: .1rem;
+     font-size: .14rem;
+     font-weight: 600;
+     line-height: .3rem;
+     color: #999;
+}
