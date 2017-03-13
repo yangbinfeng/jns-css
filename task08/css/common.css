@@ -2,12 +2,13 @@ html{
     font-size: 100px;
 }
 body{
+    min-width: 320px;
 	width: 100%;
     font-family: "Microsoft Yahei",sans-serif;
 	background-color: #fafafa;
 }
 @media screen and (max-width: 520px){
-    html{font-size: 70px;}
+    html{font-size: 85px;}
 }
 .disp-ib{
 	display: inline-block;

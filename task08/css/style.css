@@ -41,6 +41,9 @@
      margin: 0;
      padding: 0;
 }
+.container > .row {
+     margin: 0;
+}
 @media screen and (min-width: 320px) {
      .container {
           width: 100%;
@@ -53,6 +56,7 @@
      border-bottom: .02rem solid #e3e6e8;
 }
 .container .col-xs-4 {
+     position: relative;
      width: 31%;
      margin: .48rem 2% 0 0;
 }
@@ -70,7 +74,7 @@
      float: left;
      width: 36%
 }
-.container .col-xs-4 .figure-img img {
+ .col-xs-4 .figure-img img {
      max-width: 100%;
 }
 .container .col-xs-4 figcaption {
@@ -92,15 +96,19 @@
 }
 .container .col-xs-4 ul li {
      float: left;
-     margin-top: -.01rem;
      width: 50%;
-     border: .01rem solid #edf1f2;
+     border: .005rem solid #edf1f2;
+     border-left: none;
      line-height: .4rem;
+}
+.col-xs-4 .brief-intro .brief-intro-3,
+.col-xs-4 .brief-intro .brief-intro-4 {
+     margin-top: -.01rem;
 }
 .container .col-xs-4 strong {
      color: #ff0000;
 }
-.container .col-xs-4 ul li span {
+ .col-xs-4 ul li span {
      margin-left: .1rem;
      color: #ababab;
 }
@@ -113,6 +121,7 @@
 .col-xs-4 .salary h4 {
      display: inline-block;
      border: none;
+     border-right: .01rem solid #edf1f2;
      width: 40%;
      font-size: .14rem;
      font-weight: normal;
@@ -132,12 +141,13 @@
      width: 100%;
      line-height: .35rem;
 }
-.col-xs-4 .salary ul li span {
+ .salary ul li span {
      margin-left: 10%;
 }
 .col-xs-4 .salary ul li .monthly-pay {
      float: right;
      margin-right: 5%;
+     margin-left: 0;
 }
 .col-xs-4 .study-num {
      padding-left: .1rem;
@@ -145,6 +155,8 @@
      font-size: .16rem;
      font-weight: 600;
      line-height: .40rem;
+     clear: both;
+     width: 100%;
 }
 .col-xs-4 .fundation {
      padding-left: .1rem;
@@ -152,4 +164,113 @@
      font-weight: 600;
      line-height: .3rem;
      color: #999;
+}
+.col-xs-4 .cover {
+     display: none;
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     padding: 0 10%;
+     font-size: .16rem;
+     font-weight: 600;
+     color: #fff;
+     background-color: rgba(0,0,0,0.8);
+}
+.col-xs-4 .cover h4 {
+     margin: .66rem 0 .38rem 0;
+     border: none;
+     text-align: center;
+     line-height: normal;
+}
+.col-xs-4 .cover p {
+     margin-bottom: .92rem;
+}
+.col-xs-4:hover .cover {
+     display: block;
+     animation: coverstyle 1s;
+}
+@keyframes coverstyle {
+     0% {background-color: rgba(0,0,0,0.5); color:#f5f5f5;}
+     100% {background-color: rgba(0,0,0,0.8); color: #fff;}
+}
+@media screen and (max-width: 1200px) {
+     .col-xs-4 .brief-intro .brief-intro-3 span,
+     .col-xs-4 .brief-intro .brief-intro-4 span{
+          display: inline-block;
+          width: 100%;
+     }
+}
+@media screen and (max-width: 980px) {
+     .col-xs-4 figure figcaption,
+     .container .col-xs-4 figure p {
+          width: 100%;
+     }
+     .col-xs-4 .brief-intro li {
+          text-align: center;
+     }
+     .container .col-xs-4 .brief-intro li img {
+          margin-left: 0;
+     }
+     .container .col-xs-4  li span {
+          display: inline-block;
+          margin-left: 0;
+          width: 100%;
+          text-align: center;
+     }
+     .container .col-xs-4 .salary h4 {
+          height: 2.13rem;
+          line-height: 2.13rem;
+     }
+     .container .col-xs-4 .salary .monthly-pay {
+          margin-right: 0;
+     }
+}
+
+@media screen and (max-width: 720px) {
+     .container .col-xs-4 {
+          width:100%;
+     }
+     .col-xs-4 figure figcaption,
+     .container .col-xs-4 figure p {
+          width: 60%;
+     }
+     .container .col-xs-4 figure img {
+          float:none;
+          max-width:100%;
+     }
+     .col-xs-4 .brief-intro li {
+          text-align: left;
+     }
+     .container .col-xs-4 .brief-intro li img {
+          margin-left: .12rem;
+     }
+     .container .col-xs-4  li span {
+          display: inline-block;
+          margin-left: .1rem;
+          width: auto;
+          text-align: left;
+     }
+     .container .col-xs-4 .salary h4 {
+          height: 1.06rem;
+          line-height: 1.06rem;
+     }
+     .container .col-xs-4 .salary .monthly-pay {
+          margin-right: 5%;
+     }
+     .col-xs-4 .cover {
+          padding: 0 12%;
+          font-size: .2rem;
+     }
+     .col-xs-4 .cover h4 {
+          margin: 12% 0 8% 0;
+          font-size: .2rem;
+     }
+}
+@media screen and (max-width: 420px) {
+     .col-xs-4 .brief-intro .brief-intro-3 span,
+     .col-xs-4 .brief-intro .brief-intro-4 span{
+          width: 100%;
+     }
 }
