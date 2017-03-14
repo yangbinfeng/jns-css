@@ -1,40 +1,58 @@
 *{margin:0;padding:0;}
-body{
+html {font-size: 100px}
+.wrap {
+	overflow: hidden;
+	max-width: 640px;
+	margin: 0 auto;
 	background-color: #6CCDD5;
 }
+img {
+	max-width: 100%;
+	min-width: .5rem;
+}
 .back{
-	width:14%;
-	padding:5%;
+	width: 14%;
+	padding: .18rem;
 }
 .logo {
 	text-align: center;
-	margin-bottom: 10%;
+	margin-bottom: 1.1rem;
+}
+.logo img {
+	min-width: 1.5rem;
 }
 .logo img{
-	width:25%;
+	width:30%;
 }
 .content{
 	width:72%;
 	margin:0 auto;
+	font-size: .3rem;
+	line-height: .54rem;	
 	color:white;
-	font-size: 2.8em;
 }
 .footer{
+	overflow: hidden;
 	width:72%;
-	margin:0 auto;
+	margin: 1.52rem auto;
 }
-.img1{
-	width:15%;
+.footer-img1{
+	width:16.6%;
 	float:left;
-	margin:10% 5%;
+	padding-left: 10%;
 }
-.img2{
-	width:15%;
+.footer-img2{
+	width:16.6%;
 	float:right;
-	margin:10% 5%;
+	padding-right: 10%;
 }
-遇到的问题：ps字体丢失
-百分比都是瞎弄的，不知道怎么精确弄
+@media screen and (max-width: 450px){
+	html {font-size: 80px;}
+	.logo {margin-bottom: .5rem}
+	.content {font-size: .28rem}
+	.footer {margin: .7rem auto;}
+}
+
 
 
 
