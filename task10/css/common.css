@@ -1,0 +1,150 @@
+html {
+	font-size: 100px;
+}
+
+/*头部样式*/
+header {
+	overflow: hidden;
+	padding: 0 5.5%;
+	height: .3rem;
+	line-height: .3rem;
+	color: #fff;
+	background-color: #1277dc;
+}
+header span {
+	float: left;
+	font-size: .14rem;
+}
+header ul {
+	overflow: hidden;
+	display: inline-block;
+	float: right;
+}
+header ul li {
+	float: left;	
+	padding: 0 .35rem;
+}
+header ul li a {
+	font-size: .16rem;
+	font-weight: 600;
+	color: #fff;
+}
+header ul li:hover {
+	background-color: #fff;
+}
+header ul li:hover a {
+	color: #000;
+	text-decoration: none;
+}
+
+/*导航条样式*/
+.navbar-default {
+    margin-bottom: 0;
+    border: none;
+}
+.container-fluid
+{
+    overflow: hidden;
+    padding: 0 5.5%;
+    background-color: #f9f9f9;
+}
+.navbar-header .navbar-toggle{
+    vertical-align: middle;
+}
+.collapsed {
+    border: none;
+}
+.navbar-collapse {
+    overflow: hidden;
+    padding: 0 0;
+
+}
+.navbar-collapse .nav {
+    float: right;
+    overflow: hidden;
+    height: 1rem;
+    border:none;
+}
+.navbar-collapse .nav li {
+    float: left;   
+    border-radius: .05rem;
+    padding: 0 .16rem;
+    height: .47rem;
+    margin: .28rem 0 .25rem .64rem;    
+    text-align: center;
+    background-color: #fff; 
+    box-shadow: .01rem .01rem .02rem #eee;
+}
+.navbar-collapse .nav li a {
+    border: none;
+    padding: 0;
+    font-size: .16rem;
+    font-weight: 600;
+    line-height: .47rem;
+    color: #3a3a3a;   
+}
+.navbar-collapse .nav  li:hover {
+    background-color: #1277dc; 
+    color: #fff; 
+}
+.navbar-collapse .nav li:hover a {
+    color: #fff;
+    background-color: #1277dc;
+}
+/*底部样式*/
+footer .footer-top {
+	overflow: hidden;
+	padding: 0 5.5%;
+	color: #999;
+	background-color: #f9f9f9;
+}
+.footer-top .footer-common {
+	float: left;
+	width: 33%;
+	margin-top:  .68rem;
+}
+.footer-top .footer-left {
+	vertical-align: top;
+}
+.footer-top .footer-left h4 {
+	font-size: .18rem;
+}
+.footer-top .footer-middle ul{
+	overflow: hidden;
+	padding-left: 18%;
+}
+.footer-middle ul li {
+	float: left;
+	margin: 0 7.5% .2rem 7.5%;
+	font-size: .14rem;
+}
+.footer-right {
+	overflow: hidden;
+	vertical-align: top;
+	margin-bottom: .5rem;
+}
+.footer-right .company-intro {
+	float: right;
+}
+.footer-right .company-intro p {
+	margin: 0 0 .16rem 0;
+	text-align: left;
+	font-size: .16rem;
+}
+.footer-right .footer-img {
+	float: right;
+	margin-left: .16rem;
+	width: 25%;
+	font-size: 0;
+}
+.footer-right .footer-img img {
+	max-width: 100%;
+}
+footer .copyright {
+	text-align: center;
+	font-size: .14rem;
+	font-weight: 500;
+	line-height: .32rem;
+	background-color: #1277dc;
+	color: #fff;
+}
