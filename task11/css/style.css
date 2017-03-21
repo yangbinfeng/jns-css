@@ -1,0 +1,107 @@
+@charset "utf-8";
+html {
+  font-size: 100px;
+}
+body {
+  margin: 0 auto;
+  max-width: 720px;
+  min-width: 320px;
+  font-family: "Microsoft Yahei", sans-serif;
+}
+.wrap {
+  background-color: #eff0f4;
+  height: 100%;
+}
+header {
+  position: relative;
+  height: 0.88rem;
+  text-align: center;
+  line-height: 0.88rem;
+  background-color: #5fc0cd;
+}
+header .header-common {
+  font-size: 0.32rem;
+  color: #fff;
+}
+header .header-left {
+  position: absolute;
+  left: 4%;
+  font-size: 0.32rem;
+  color: #fff;
+}
+header .header-right {
+  position: absolute;
+  right: 4%;
+  font-size: 0.32rem;
+  color: #fff;
+}
+header .header-middle {
+  font-size: 0.32rem;
+  color: #fff;
+  font-size: .36rem;
+}
+.main-content {
+  margin-bottom: .6rem;
+}
+.main-content ul {
+  margin-top: .02rem;
+}
+.main-content ul li {
+  margin-top: .14rem;
+  padding: .24rem 0;
+  font-size: 0;
+  background-color: #fff;
+}
+.main-content ul li label {
+  display: inline-block;
+  width: 6%;
+  padding: 0 4%;
+  height: .51rem;
+  text-align: center;
+}
+.main-content ul li img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+.main-content ul li input {
+  display: inline-block;
+  width: 80%;
+  border: none;
+  border-left: .02rem solid #eaedee;
+  padding-left: 4.5%;
+  height: .51rem;
+  font-size: 0.32rem;
+  line-height: .51rem;
+  vertical-align: middle;
+  outline: none;
+  color: #e3e6e8;
+}
+footer {
+  font-size: 0;
+  padding-bottom: 2.5rem;
+}
+footer button {
+  width: 100%;
+  padding: .32rem 0;
+  background-color: #5fc0cd;
+  border: none;
+  font-size: .36rem;
+  letter-spacing: .16rem;
+  color: #fff;
+}
+footer button .forget {
+  font-size: .28rem;
+  color: #5fc0cd;
+  float: right;
+  margin: .18rem .3rem 0 0;
+}
+@media screen and (max-width: 530px) {
+  html {
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 435px) {
+  html {
+    font-size: 70px;
+  }
+}
