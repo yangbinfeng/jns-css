@@ -1,0 +1,164 @@
+@charset "utf-8";
+html {
+  font-size: 100px;
+}
+body {
+  margin: 0 auto;
+  max-width: 720px;
+  min-width: 320px;
+  font-family: "Microsoft Yahei", sans-serif;
+}
+header {
+  padding: 0 .3rem;
+  position: relative;
+  height: 0.8rem;
+  text-align: center;
+  color: #fff;
+  background-color: #5fc0cd;
+}
+header .abo_middle {
+  top: 50%;
+  transform: translate(0 -50%);
+}
+header h2 {
+  font-size: 0.36rem;
+  font-weight: normal;
+  line-height: 0.8rem;
+}
+header img {
+  float: left;
+  padding-top: .22rem;
+  font-size: 0;
+  max-height: .36rem;
+}
+#banner {
+  padding: .8rem .3rem;
+  background: url(../img/banner.png) no-repeat;
+  background-size: cover;
+  font-size: .32rem;
+  color: #fff;
+}
+#banner .person {
+  display: inline-block;
+  font-size: 0;
+  width: 1.7rem;
+  height: 1.7rem;
+  border-radius: 50%;
+  vertical-align: middle;
+  background: #efefef url(../img/person.png) no-repeat center bottom;
+  background-size: 67%;
+}
+#banner .info {
+  display: inline-block;
+  margin: 0 0 .24rem .4rem;
+  vertical-align: middle;
+}
+#banner .info .name {
+  font-size: .32rem;
+  margin-right: .4rem;
+}
+#banner .info .age {
+  font-size: 0.28rem;
+}
+#banner .info .address {
+  font-size: .28rem;
+}
+#banner .info .address img {
+  width: .22rem;
+}
+#banner .info .address span {
+  margin-left: .12rem;
+}
+#content {
+  margin-bottom: 1.68rem;
+}
+#content h2 {
+  margin: .3rem 0 .3rem 4%;
+  font-size: .36rem;
+  font-weight: 500;
+}
+#content h2 .pre-bor {
+  display: inline-block;
+  font-size: 0;
+  width: 3px;
+  height: .3rem;
+  background-color: #5fc0cd;
+  margin-right: .26rem;
+}
+#content ul {
+  margin-left: 8%;
+}
+#content ul .sep {
+  display: inline-block;
+  font-size: 0;
+  width: 1px;
+  height: .3rem;
+  background-color: #e1e5e7;
+  vertical-align: middle;
+  margin: 0 2.5%;
+}
+#content ul .fir-line img {
+  max-width: .3rem;
+  margin-right: .08rem;
+}
+#content ul li {
+  font-size: 0.32rem;
+  line-height: 1rem;
+  border-bottom: .01rem solid #e1e5e7;
+}
+#content ul .heading {
+  color: #999;
+}
+#content ul strong {
+  color: red;
+}
+#content ul .self-intro {
+  display: inline-block;
+  font-size: 0.24rem;
+  border-bottom: none;
+  width: 55%;
+  line-height: .36rem;
+  vertical-align: middle;
+}
+footer {
+  border-top: .02rem solid #e1e5e7;
+  width: 100%;
+  max-width: 720px;
+  padding: .4rem 0;
+  position: fixed;
+  bottom: 0;
+  font-size: 0;
+  background-color: #fff;
+}
+footer .message {
+  border: .02rem solid #5fc0cd;
+  border-radius: 10px;
+  width: 43%;
+  font-size: .34rem;
+  line-height: .84rem;
+  color: #5fc0cd;
+  background-color: #ffffff;
+  cursor: pointer;
+  margin: 0 2% 0 5%;
+}
+footer .phone {
+  border: .02rem solid #5fc0cd;
+  border-radius: 10px;
+  width: 43%;
+  font-size: .34rem;
+  line-height: .84rem;
+  color: #ffffff;
+  background-color: #5fc0cd;
+  cursor: pointer;
+  margin: 0 5% 0 2%;
+}
+@media screen and (max-width: 530px) {
+  html {
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 435px) {
+  html {
+    font-size: 70px;
+  }
+}
