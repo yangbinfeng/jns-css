@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0
+          , maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <title>桌游精灵首页重构</title>
+</head>
+<body>
+    <div id="wrap">
+        <header>
+            <div class="header-left header-common">
+                <img src="img/header-list.png" alt="列表图标">
+            </div>
+            <div class="header-right header-common">
+            <img src="img/header-over.png" alt="列表图标">
+            </div>
+            <h2>投票</h2>
+        </header>
+        <div id="vote">
+            <div class="vote-top">
+                <span>发言讨论结束，大家请投票</span>
+                <button onclick="audio()">
+                    <img src="img/audio.png" alt="音频">
+                </button>
+                <audio id="aud" src="free.mp3" ></audio>
+                <script type="text/javascript">
+                    function audio(){
+                        var aud = document.getElementById("aud");
+                        if (aud.paused) {
+                            aud.play();
+                        }
+                        else {
+                            aud.pause();
+                        }
+                    }
+                </script>
+            </div>
+            <div class="tri-down"></div>
+            <p>点击得票数最多人的头像</p>
+        </div>
+        <ul id="main-content">
+            <li>
+                <div class="box">
+                    <div class="box-content">
+                        <div class="box-top">水民</div>
+                        <div class="box-bottom">1号</div>
+                    </div>
+                    <ul class="box-option">
+                        <li class="cat-1"></li>
+                        <li class="cat-2"></li>
+                        <li class="cat-3"></li>
+                        <li class="cat-4"></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="box">
+                    <div class="box-content">
+                        <div class="box-top">水民</div>
+                        <div class="box-bottom">1号</div>
+                    </div>
+                    <ul class="box-option">
+                        <li class="cat-1"></li>
+                        <li class="cat-2"></li>
+                        <li class="cat-3"></li>
+                        <li class="cat-4"></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="box">
+                    <div class="box-content">
+                        <div class="box-top">水民</div>
+                        <div class="box-bottom">1号</div>
+                    </div>
+                    <ul class="box-option">
+                        <li class="cat-1"></li>
+                        <li class="cat-2"></li>
+                        <li class="cat-3"></li>
+                        <li class="cat-4"></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="box">
+                    <div class="box-content">
+                        <div class="box-top">水民</div>
+                        <div class="box-bottom">1号</div>
+                    </div>
+                    <ul class="box-option">
+                        <li class="cat-1"></li>
+                        <li class="cat-2"></li>
+                        <li class="cat-3"></li>
+                        <li class="cat-4"></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="box">
+                    <div class="box-content">
+                        <div class="box-top">水民</div>
+                        <div class="box-bottom">1号</div>
+                    </div>
+                    <ul class="box-option">
+                        <li class="cat-1"></li>
+                        <li class="cat-2"></li>
+                        <li class="cat-3"></li>
+                        <li class="cat-4"></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="box">
+                    <div class="box-content">
+                        <div class="box-top">水民</div>
+                        <div class="box-bottom">1号</div>
+                    </div>
+                    <ul class="box-option">
+                        <li class="cat-1"></li>
+                        <li class="cat-2"></li>
+                        <li class="cat-3"></li>
+                        <li class="cat-4"></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="box">
+                    <div class="box-content">
+                        <div class="box-top">水民</div>
+                        <div class="box-bottom">1号</div>
+                    </div>
+                    <ul class="box-option">
+                        <li class="cat-1"></li>
+                        <li class="cat-2"></li>
+                        <li class="cat-3"></li>
+                        <li class="cat-4"></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="box">
+                    <div class="box-content">
+                        <div class="box-top">水民</div>
+                        <div class="box-bottom">1号</div>
+                    </div>
+                    <ul class="box-option">
+                        <li class="cat-1"></li>
+                        <li class="cat-2"></li>
+                        <li class="cat-3"></li>
+                        <li class="cat-4"></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="box">
+                    <div class="box-content">
+                        <div class="box-top">水民</div>
+                        <div class="box-bottom">1号</div>
+                    </div>
+                    <ul class="box-option">
+                        <li class="cat-1"></li>
+                        <li class="cat-2"></li>
+                        <li class="cat-3"></li>
+                        <li class="cat-4"></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="box">
+                    <div class="box-content">
+                        <div class="box-top">水民</div>
+                        <div class="box-bottom">1号</div>
+                    </div>
+                    <ul class="box-option">
+                        <li class="cat-1"></li>
+                        <li class="cat-2"></li>
+                        <li class="cat-3"></li>
+                        <li class="cat-4"></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="box">
+                    <div class="box-content">
+                        <div class="box-top">水民</div>
+                        <div class="box-bottom">1号</div>
+                    </div>
+                    <ul class="box-option">
+                        <li class="cat-1"></li>
+                        <li class="cat-2"></li>
+                        <li class="cat-3"></li>
+                        <li class="cat-4"></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <div class="box">
+                    <div class="box-content">
+                        <div class="box-top">水民</div>
+                        <div class="box-bottom">1号</div>
+                    </div>
+                    <ul class="box-option">
+                        <li class="cat-1"></li>
+                        <li class="cat-2"></li>
+                        <li class="cat-3"></li>
+                        <li class="cat-4"></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <footer>
+            <div class="button">
+                <button type="button">投死</button>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

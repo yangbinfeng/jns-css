@@ -1,0 +1,197 @@
+@charset "utf-8";
+html {
+  font-size: 100px;
+}
+body {
+  margin: 0 auto;
+  max-width: 720px;
+  min-width: 320px;
+  font-family: "Microsoft Yahei", sans-serif;
+}
+header {
+  height: 0.7rem;
+  padding: .09rem 0;
+  background-color: #5ac0cd;
+  line-height: 0.7rem;
+  position: relative;
+}
+header .header-img {
+  width: 6%;
+  position: absolute;
+  right: .3rem;
+  height: .7rem;
+}
+header .btn {
+  position: absolute;
+  top: .09rem;
+  left: 50%;
+  width: 1.44rem;
+  height: .7rem;
+  border: none;
+  line-height: .7rem;
+  border-radius: 5px;
+  font-size: .34rem;
+}
+header .employer {
+  background-color: #55a8b3;
+  color: #ffffff;
+  -webkit-transform: translate(-1.4rem, 0);
+  -moz-transform: translate(-1.4rem, 0);
+  -ms-transform: translate(-1.4rem, 0);
+  -o-transform: translate(-1.4rem, 0);
+  transform: translate(-1.4rem, 0);
+}
+header .employee {
+  background-color: #ffffff;
+  color: #5ac0cd;
+}
+form {
+  font-size: 0;
+  padding: .2rem 0;
+  border-bottom: .01rem solid #e1e5e7;
+}
+form select {
+  padding-left: 8.3%;
+  width: 33%;
+  height: .4rem;
+  border: none;
+  border-left: .01rem solid #e1e5e7;
+  font-size: .28rem;
+  text-align: center;
+  color: #999;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(../img/select.png) no-repeat 94% center;
+  background-size: .15rem;
+}
+form .select-1 {
+  border-left: none;
+  padding-left: 9%;
+}
+form .select-2 {
+  padding-left: 12%;
+}
+form .select-3 {
+  padding-left: 7%;
+  background-position: 88% center;
+}
+#info li {
+  padding: .3rem 4%;
+  overflow: hidden;
+  border-bottom: .01rem solid #e1e5e7;
+  font-size: 0;
+}
+#info li .info {
+  float: left;
+  width: 60%;
+}
+#info li .info .service-date {
+  margin-bottom: .25rem;
+}
+#info li .info .service-date img {
+  max-width: 100%;
+  margin-right: .13rem;
+}
+#info li .info .service-date span {
+  font-size: 0.28rem;
+  color: #999999;
+}
+#info li .info .date-gap {
+  font-size: 0.28rem;
+  color: #000000;
+  margin: 0 0 .2rem .38rem;
+}
+#info li .info .address img {
+  max-width: 100%;
+  margin-right: .17rem;
+}
+#info li .info .address span {
+  font-size: 0.26rem;
+  color: #999999;
+}
+#info li .price {
+  float: right;
+  width: 40%;
+  line-height: 1.54rem;
+  vertical-align: middle;
+  font-size: 0.32rem;
+  color: #e7471c;
+  text-align: right;
+}
+#info li .price a {
+  display: inline-block;
+  width: 8.5%;
+  margin-left: 8.5%;
+}
+#info li .price a img {
+  max-width: 100%;
+}
+footer {
+  max-width: 720px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  border-top: .01rem solid #e1e5e7;
+  background-color: #f8fafb;
+}
+footer ul {
+  overflow: hidden;
+  font-size: 0;
+  width: 3.87rem;
+  margin: 0 auto;
+  text-align: center;
+}
+footer img {
+  max-width: 100%;
+}
+footer .index {
+  float: left;
+  padding: .13rem 0;
+  width: .47rem;
+  font-size: 0.2rem;
+  color: #5ac0cd;
+}
+footer .edit {
+  display: inline-block;
+  padding: .04rem 0;
+  width: .94rem;
+}
+footer .mine {
+  width: .42rem;
+  float: right;
+  padding: .1rem 0 .14rem 0;
+  font-size: 0.2rem;
+  color: #999999;
+}
+@media screen and (max-width: 645px) {
+  html {
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 520px) {
+  html {
+    font-size: 65px;
+  }
+  #info li .info .service-date img {
+    max-width: .24rem;
+  }
+  #info li .info .address img {
+    max-width: .22rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  html {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 360px) {
+  #info li {
+    padding-right: 0;
+  }
+  #info li .price a {
+    font-size: 0;
+    width: .2rem;
+  }
+}
