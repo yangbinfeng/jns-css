@@ -1,0 +1,155 @@
+@charset "utf-8";
+html {
+  font-size: 100px;
+}
+body {
+  margin: 0 auto;
+  max-width: 640px;
+  min-width: 320px;
+  font-family: "Microsoft Yahei", sans-serif;
+}
+#wrap {
+  background-color: #29bde0;
+}
+header {
+  overflow: hidden;
+  border-bottom: .01rem solid #74d4eb;
+  height: 0.7rem;
+  padding: 0 3.125%;
+  background-color: #29bde0;
+}
+header .header-left {
+  height: .5rem;
+  float: left;
+  font-size: 0;
+  padding: .1rem 0 0 0;
+  border: none;
+}
+header .header-right {
+  height: .5rem;
+  float: right;
+  font-size: 0;
+  padding: .1rem 0 0 0;
+}
+header img {
+  max-height: 100%;
+}
+header h1 {
+  font-size: 0.34rem;
+  color: #ffffff;
+  text-align: center;
+  line-height: .7rem;
+  font-weight: 500;
+}
+#outcome {
+  background: url("../img/victory.png") no-repeat center 0.24rem;
+  background-size: 3.53rem;
+  padding: 1.52rem 12% 0;
+}
+#outcome .victory {
+  font-size: 0.48rem;
+  color: #ffffff;
+  text-align: center;
+}
+#outcome .praise {
+  font-size: 0.32rem;
+  color: #f5c76f;
+  margin-top: .4rem;
+}
+#game-info {
+  padding: .6rem 12% .26rem;
+  font-size: 0.26rem;
+  color: #ffffff;
+  line-height: .4rem;
+}
+#game-info li {
+  float: left;
+  margin-right: 10.5%;
+  font-weight: 500;
+}
+#game-info p {
+  clear: both;
+}
+#detail-info {
+  margin-bottom: 1.28rem;
+  background-color: #ffffff;
+}
+#detail-info .bo {
+  border-bottom: .02rem solid #ddd;
+}
+#detail-info .fir-day,
+#detail-info .sec-day {
+  border-bottom: .02rem solid #ddd;
+  padding: .12rem 12% .33rem;
+  position: relative;
+}
+#detail-info .day-time {
+  position: absolute;
+  top: .22rem;
+  right: 17%;
+  font-size: 0.2rem;
+  color: #d5d5d5;
+}
+#detail-info h2 {
+  font-size: 0.3rem;
+  color: #000000;
+  padding: 0 0 .14rem;
+  font-weight: normal;
+}
+#detail-info p {
+  font-size: 0.26rem;
+  color: #a6a6a6;
+  margin-top: .14rem;
+}
+#detail-info .cur-day {
+  overflow: hidden;
+  padding: 0 6.25% 0 4.7%;
+  line-height: .7rem;
+  font-size: 0;
+}
+#detail-info .cur-day .day {
+  font-size: 0.4rem;
+  color: #29bde0;
+}
+#detail-info .cur-day .time {
+  float: right;
+  font-size: 0.27rem;
+  color: #29bde0;
+}
+footer {
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  max-width: 640px;
+  width: 100%;
+  font-size: 0;
+  background-color: rgba(153, 223, 240, 0.7);
+}
+footer button {
+  border: none;
+  border-radius: 5px;
+  width: 42%;
+  margin: 3.75%;
+  font-size: 0.4rem;
+  color: #ffffff;
+  line-height: .84rem;
+}
+footer .again {
+  background-color: #f66f6f;
+}
+footer .share {
+  background-color: #fbb435;
+}
+@media screen and (max-width: 520px) {
+  html {
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 420px) {
+  html {
+    font-size: 65px;
+  }
+  footer button {
+    font-size: .3rem;
+  }
+}

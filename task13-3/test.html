@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>重构桌游精灵游戏页</title>
+</head>
+<body>
+<div id="wrap">
+    <header>
+        <header class="header-left">
+            <img src="img/index.png">
+        </header>
+        <div class="header-right">
+            <img src="img/about.png">
+        </div>
+        <h1>游戏结果</h1>
+    </header>
+    <div id="outcome">
+        <p class="victory">卧底胜利</p>
+        <p class="praise">太棒了!你知道么？在捉鬼游戏中
+        只有20%的卧底取得游戏最终的
+        胜利哦！
+        </p>
+    </div>
+    <div id="game-info">
+        <p>本次游戏共计用时0小时25分钟</p>
+        <ul>
+            <!--&ensp;是两个空格，&emsp是4个空格-->
+            <li>杀&ensp;手0人</li>
+            <li>警&ensp;察1人</li>
+            <li>平&ensp;民6人</li>
+            <li>狙击手0人</li>
+            <li>医&ensp;生1人</li>
+        </ul>
+        <p>卧底词汇：爱新觉罗</p>
+        <p>水民词汇：努尔哈赤</p>
+    </div>
+    <div id="detail-info">
+        <div class="fir-day">
+            <h2>第1天</h2>
+            <p>晚上：5号被杀手杀死，5号是水民</p>
+            <p>白天：8号被全民投票投死，8号是杀手</p>
+            <span class="day-time">0小时07分</span>
+        </div>
+        <div class="sec-day">
+            <h2>第2天</h2>
+            <p class="night">晚上：5号被杀手杀死，5号是水民</p>
+            <p class="day">白天：8号被全民投票投死，8号是杀手</p>
+            <span class="day-time">0小时07分</span>
+        </div>
+        <div class="cur-day">
+            <span class="day">第二天</span>
+            <span class="time">0小时07分</span>
+        </div>
+    </div>
+    <footer>
+        <button class="again" type="button">再来一局</button>
+        <button class="share" type="button">上传并分享</button>
+    </footer>
+</div>
+</body>
+</html>

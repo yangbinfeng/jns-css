@@ -1,0 +1,118 @@
+@charset "utf-8";
+html {
+  font-size: 100px;
+}
+body {
+  margin: 0 auto;
+  max-width: 640px;
+  min-width: 320px;
+  font-family: "Microsoft Yahei", sans-serif;
+}
+header {
+  height: .68rem;
+  padding-left: 3.125%;
+  background-color: #29bde0;
+}
+header .header-img {
+  padding: .2rem 0;
+  font-size: 0;
+}
+header .header-img img {
+  width: .36rem;
+}
+#main-content {
+  background-color: #f0f0f0;
+  padding: .27rem .36rem .62rem .36rem;
+}
+#main-content .last-game {
+  overflow: hidden;
+  width: 100%;
+  height: 1.16rem;
+  margin-bottom: .26rem;
+  border: .01rem solid #c9c9c9;
+  background-color: #ffffff;
+  font-size: 0.32rem;
+  color: #adadad;
+  line-height: 1.16rem;
+  text-align: center;
+  vertical-align: middle;
+}
+#main-content .last-game img {
+  float: right;
+  margin: .4rem .13rem 0 0;
+  max-width: .24rem;
+}
+#main-content .version {
+  position: relative;
+  box-shadow: 0.01rem 0.01rem 0.01rem #cecece, -0.01rem -0.01rem 0.01rem #cecece;
+  background-color: #ffffff;
+  border: .01rem solid #c9c9c9;
+}
+#main-content .version h2 {
+  padding: .3rem 0 .28rem 0;
+  border-bottom: .02rem solid #fbb435;
+  font-size: 0.38rem;
+  color: #fbb435;
+  font-weight: 500;
+  letter-spacing: .04rem;
+  text-align: center;
+}
+#main-content .version .diff-version {
+  padding: .30rem 9.5% 0 9.5%;
+}
+#main-content .version .diff-version li {
+  font-size: 0;
+}
+#main-content .version .diff-version button {
+  border: .01rem solid #d7f3f9;
+  width: 100%;
+  line-height: 1.34rem;
+  background-color: #69d1e9;
+  font-size: 0.32rem;
+  color: #ffffff;
+}
+#main-content .version .diff-version p {
+  font-size: 0.24rem;
+  color: #787878;
+  text-align: center;
+  line-height: .82rem;
+}
+#main-content .version .diff-version .fool {
+  line-height: 1;
+  padding: .3rem 0 .15rem 0;
+}
+#main-content .version .dots {
+  overflow: hidden;
+  padding: 0 0 .08rem 41.5%;
+}
+#main-content .version .dots li {
+  float: left;
+  margin-right: .1rem;
+  width: .16rem;
+  height: .16rem;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+}
+#main-content .version .dots li:hover {
+  background-color: #69d1e9;
+}
+#main-content .version .next-page {
+  position: absolute;
+  top: 51%;
+  right: .08rem;
+  width: 0;
+  height: 0;
+  border-top: .28rem solid transparent;
+  border-bottom: .28rem solid transparent;
+  border-left: .28rem solid #fbb435;
+}
+@media screen and (max-width: 520px) {
+  html {
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 65px;
+  }
+}

@@ -1,0 +1,177 @@
+@charset "utf-8";
+@charset "utf-8";
+html{
+  font-size: 100px;
+}
+body{
+  margin: 0 auto;
+  max-width: 640px;
+  min-width: 320px;
+  font-family: "Microsoft Yahei",sans-serif;
+}
+@r:relative;
+@a:absolute;
+@f:fixed;
+.po(r){
+  position:@r;
+}
+.po(a){
+  position:@a;
+}
+.po(f){
+  position: @f;
+}
+.fs(@fs,@c:#fff) {
+  font-size: @fs;
+  color: @c;
+}
+.bc(@bc) {
+  background-color: @bc;
+}
+
+#wrap {
+  .bc(#29bde0);
+}
+
+//头部样式
+header {
+  @h:.7rem;
+  overflow: hidden;
+  border-bottom: .01rem solid #74d4eb;
+  height: @h;
+  padding:0 3.125%;
+  .bc(#29bde0);
+    .header(@fl) {
+      height: .5rem;
+      float:@fl;
+      font-size: 0;
+      padding: .1rem 0 0 0;
+    }
+    .header-left {
+      .header(left);
+      border: none;
+     }
+    .header-right {
+      .header(right);
+    }
+    img {
+      max-height: 100%;
+    }
+    h1 {
+      .fs(.34rem);
+      text-align: center;
+      line-height: .7rem;
+      font-weight: 500;
+    }
+}
+
+
+#outcome {
+  background: url("../img/victory.png")
+  no-repeat center .24rem;
+  background-size: 3.53rem;
+  padding: 1.52rem 12% 0;
+  .victory {
+    .fs(.48rem);
+    text-align: center;
+  }
+  .praise {
+    .fs(.32rem,#f5c76f);
+    margin-top: .4rem;
+  }
+}
+
+//游戏信息的样式
+#game-info {
+  padding: .6rem 12% .26rem;  //12%保持左右留出的空白长度是相同的。
+  .fs(.26rem);
+  line-height: .4rem;
+    li{
+      float: left;
+      margin-right: 10.5%;
+      font-weight: 500;
+    }
+    p {
+      clear:both;
+    }
+}
+
+#detail-info {
+  margin-bottom: 1.28rem;
+  .bc(#fff);
+  .bo {
+    border-bottom: .02rem solid #ddd;
+  }
+  .fir-day,.sec-day {
+    .bo;
+    padding: .12rem 12% .33rem;
+    .po(r);
+  }
+  .day-time {
+    .po(a);
+    top:.22rem;right:17%;
+    .fs(.2rem,#d5d5d5);
+  }
+  h2 {
+    .fs(.3rem,#000);
+    padding: 0 0 .14rem;
+    font-weight: normal;
+  }
+  p {
+    .fs(.26rem,#a6a6a6);
+    margin-top: .14rem;
+  }
+  .cur-day {
+    overflow: hidden;
+    padding: 0 6.25% 0 4.7%;
+    line-height: .7rem;
+    font-size: 0;
+    .day {
+      .fs(.4rem,#29bde0);
+    }
+    .time {
+      float:right;
+      .fs(.27rem,#29bde0);
+    }
+  }
+}
+
+
+//底部样式
+footer {
+  overflow: hidden;
+  .po(f);
+  bottom: 0;
+  max-width: 640px;
+  width: 100%;
+  font-size: 0;
+  background-color: rgba(153,223,240,0.7);
+  button {
+    border: none;
+    border-radius: 5px;
+    width: 42%;
+    margin: 3.75%;
+    .fs(.40rem);
+    line-height: .84rem;
+  }
+  .again {
+    .bc(#f66f6f);
+  }
+  .share {
+    .bc(#fbb435);
+  }
+}
+
+@media screen and (max-width: 520px) {
+  html {
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 420px) {
+  html {
+    font-size: 65px;
+  }
+  footer button {
+    font-size: .3rem;
+  }
+}
