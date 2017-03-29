@@ -36,26 +36,28 @@ body{
 //头部样式
 header {
   @h:.7rem;
+  width: 100%;
   overflow: hidden;
   border-bottom: .01rem solid #74d4eb;
   height: @h;
   padding:0 3.125%;
   .bc(#29bde0);
     .header(@fl) {
-      height: .5rem;
       float:@fl;
       font-size: 0;
       padding: .1rem 0 0 0;
     }
     .header-left {
+      width: .5rem;
       .header(left);
       border: none;
      }
     .header-right {
+      width: .44rem;
       .header(right);
     }
     img {
-      max-height: 100%;
+      max-width: 100%;
     }
     h1 {
       .fs(.34rem);
@@ -70,7 +72,7 @@ header {
   background: url("../img/victory.png")
   no-repeat center .24rem;
   background-size: 3.53rem;
-  padding: 1.52rem 12% 0;
+  padding: 1.54rem 12% 0;
   .victory {
     .fs(.48rem);
     text-align: center;
@@ -154,6 +156,10 @@ footer {
     .fs(.40rem);
     line-height: .84rem;
   }
+  a {
+    .fs(.40rem);
+    cursor: pointer;
+  }
   .again {
     .bc(#f66f6f);
   }
@@ -171,7 +177,7 @@ footer {
   html {
     font-size: 65px;
   }
-  footer button {
-    font-size: .3rem;
+  footer button a {
+    font-size: .32rem;
   }
 }

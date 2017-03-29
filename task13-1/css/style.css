@@ -8,161 +8,116 @@ body {
   min-width: 320px;
   font-family: "Microsoft Yahei", sans-serif;
 }
-#wrap {
-  background-color: #29bde0;
-}
 header {
-  position: relative;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  height: 0.66rem;
-  line-height: .38rem;
-  padding: .14rem 0;
-  text-align: center;
+  height: .68rem;
+  padding-left: 3.125%;
   background-color: #29bde0;
 }
-header img {
-  max-width: 100%;
-}
-header .header-common {
-  position: absolute;
-  display: inline-block;
+header .header-img {
+  padding: .2rem 0;
   font-size: 0;
 }
-header .header-left {
-  width: .38rem;
-  left: 3.125%;
-}
-header .header-right {
-  width: .34rem;
-  right: 3.125%;
-}
-header h2 {
-  font-size: 0.34rem;
-  color: #ffffff;
-  font-weight: normal;
-}
-#vote {
-  font-size: 0.26rem;
-  color: #000000;
-}
-#vote .vote-top {
-  height: 0.82rem;
-  background-color: #b9e9f5;
-}
-#vote .tri-down {
-  width: 0;
-  height: 0;
-  border-top: .13rem solid #b9e9f5;
-  border-left: .075rem solid transparent;
-  border-right: .075rem solid transparent;
-  margin-left: 11%;
-}
-#vote span {
-  padding-left: 6.25%;
-  line-height: 0.82rem;
-}
-#vote button {
-  float: right;
-  margin: .15rem 3.125% 0 0;
-  width: .52rem;
-  border: none;
-  background-color: #b9e9f5;
-  cursor: pointer;
-  outline: none;
-}
-#vote button img {
-  max-width: 100%;
-}
-#vote p {
-  font-size: 0.22rem;
-  color: #ffffff;
-  font-weight: 300;
-  padding: .12rem 0 .44rem 11.25%;
+header .header-img img {
+  width: .36rem;
 }
 #main-content {
+  background-color: #f0f0f0;
+  padding: .27rem .36rem .62rem .36rem;
+}
+#main-content .last-game {
   overflow: hidden;
-  padding: 0 .07rem;
-  background-color: #29bde0;
-  margin-bottom: 1.73rem;
-}
-#main-content li {
-  width: 1.36rem;
-  float: left;
-  margin: 0 5.6%;
-}
-#main-content .box {
-  width: 1.36rem;
-}
-#main-content .box .box-content {
-  border: .05rem solid #fff;
-}
-#main-content .box .box-top {
-  height: .99rem;
-  line-height: .99rem;
+  width: 100%;
+  height: 1.16rem;
+  margin-bottom: .26rem;
+  border: .01rem solid #c9c9c9;
+  background-color: #ffffff;
+  font-size: 0.32rem;
+  color: #adadad;
+  line-height: 1.16rem;
   text-align: center;
-  font-size: 0.3rem;
-  color: #000000;
-  background-color: #f5c97b;
+  vertical-align: middle;
 }
-#main-content .box .box-bottom {
-  height: .27rem;
-  line-height: .27rem;
-  text-align: center;
-  font-size: 0.22rem;
-  color: #ffffff;
-  background-color: #83b09a;
+#main-content .last-game img {
+  float: right;
+  margin: .4rem .13rem 0 0;
+  max-width: .24rem;
 }
-#main-content .box-option {
-  overflow: hidden;
-  margin: .21rem 0;
-  width: 100%;
-  visibility: hidden;
-  background: url("../img/sprite.png") no-repeat;
+#main-content .version {
+  position: relative;
+  box-shadow: 0.01rem 0.01rem 0.01rem #cecece, -0.01rem -0.01rem 0.01rem #cecece;
+  background-color: #ffffff;
+  border: .01rem solid #c9c9c9;
 }
-#main-content .box-option li {
-  font-size: 0;
-  width: .3rem;
-  height: .3rem;
-  margin: 0 .05rem 0 0;
-}
-#main-content .box-option .cat-1 {
-  background-position: 0 0;
-}
-#main-content .box-option .cat-2 {
-  background-position: .35rem 0;
-}
-#main-content .box-option .cat-3 {
-  background-position: .70rem 0;
-}
-#main-content .box-option .cat-4 {
-  background-position: 1.05rem 0;
-  margin: 0;
-}
-#main-content .box:hover .box-option {
-  visibility: visible;
-}
-footer {
-  position: fixed;
-  bottom: 0;
-  max-width: 640px;
-  width: 100%;
-  padding: 0 6.56%;
-  background-color: #29bde0;
-}
-footer .button {
-  padding: .42rem 0;
-  margin-left: -0.07rem;
-  border-top: .02rem solid #fff;
-  font-size: 0;
-}
-footer button {
-  border: none;
-  width: 100%;
-  height: .87rem;
+#main-content .version h2 {
+  padding: .3rem 0 .28rem 0;
+  border-bottom: .02rem solid #fbb435;
   font-size: 0.38rem;
+  color: #fbb435;
+  font-weight: 500;
+  letter-spacing: .04rem;
+  text-align: center;
+}
+#main-content .version .diff-version {
+  padding: .30rem 9.5% 0 9.5%;
+}
+#main-content .version .diff-version li {
+  font-size: 0;
+}
+#main-content .version .diff-version button {
+  border: .01rem solid #d7f3f9;
+  width: 100%;
+  line-height: 1.34rem;
+  background-color: #69d1e9;
+  font-size: 0.32rem;
   color: #ffffff;
-  font-weight: 600;
-  background-color: #fbb435;
+}
+#main-content .version .diff-version a {
+  font-size: 0.32rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+#main-content .version .diff-version p {
+  font-size: 0.24rem;
+  color: #787878;
+  text-align: center;
+  line-height: .82rem;
+}
+#main-content .version .diff-version .fool {
+  line-height: 1;
+  padding: .3rem 0 .15rem 0;
+}
+#main-content .version .dots {
+  overflow: hidden;
+  padding: 0 0 .08rem 41.5%;
+}
+#main-content .version .dots li {
+  float: left;
+  margin-right: .1rem;
+  width: .16rem;
+  height: .16rem;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+}
+#main-content .version .dots li:hover {
+  background-color: #69d1e9;
+}
+#main-content .version .next-page {
+  position: absolute;
+  top: 51%;
+  right: .08rem;
+  width: 0;
+  height: 0;
+  border-top: .26rem solid transparent;
+  border-bottom: .26rem solid transparent;
+  border-left: .26rem solid #fbb435;
+}
+@media screen and (max-width: 520px) {
+  html {
+    font-size: 80px;
+  }
+}
+@media screen and (max-width: 400px) {
+  html {
+    font-size: 65px;
+  }
 }

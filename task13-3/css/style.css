@@ -12,6 +12,7 @@ body {
   background-color: #29bde0;
 }
 header {
+  width: 100%;
   overflow: hidden;
   border-bottom: .01rem solid #74d4eb;
   height: 0.7rem;
@@ -19,20 +20,20 @@ header {
   background-color: #29bde0;
 }
 header .header-left {
-  height: .5rem;
+  width: .5rem;
   float: left;
   font-size: 0;
   padding: .1rem 0 0 0;
   border: none;
 }
 header .header-right {
-  height: .5rem;
+  width: .44rem;
   float: right;
   font-size: 0;
   padding: .1rem 0 0 0;
 }
 header img {
-  max-height: 100%;
+  max-width: 100%;
 }
 header h1 {
   font-size: 0.34rem;
@@ -44,7 +45,7 @@ header h1 {
 #outcome {
   background: url("../img/victory.png") no-repeat center 0.24rem;
   background-size: 3.53rem;
-  padding: 1.52rem 12% 0;
+  padding: 1.54rem 12% 0;
 }
 #outcome .victory {
   font-size: 0.48rem;
@@ -134,6 +135,11 @@ footer button {
   color: #ffffff;
   line-height: .84rem;
 }
+footer a {
+  font-size: 0.4rem;
+  color: #ffffff;
+  cursor: pointer;
+}
 footer .again {
   background-color: #f66f6f;
 }
@@ -149,7 +155,7 @@ footer .share {
   html {
     font-size: 65px;
   }
-  footer button {
-    font-size: .3rem;
+  footer button a {
+    font-size: .32rem;
   }
 }
