@@ -1,0 +1,66 @@
+footer {
+    background-color: #26a26f;
+}
+.footer-bottom {
+    width: 1200px;
+    margin: 0 auto;
+    height: 1.7rem;
+}
+.footer-bottom h4 {
+    font-size: 0.16rem;
+    color: #ffffff;
+    font-weight: normal;
+    padding-top: .38rem;
+    line-height: 1;
+}
+.footer-bottom .footer-left {
+    float: left;
+    width: 3.57rem;
+}
+.footer-bottom .footer-left p {
+    font-size: 0.14rem;
+    color: #ffffff;
+    margin: .65rem 0 .32rem;
+}
+.footer-bottom .footer-middle {
+    float: left;
+    margin-right: 2.73rem;
+    width: 2.4rem;
+}
+.footer-bottom .footer-middle ul {
+    overflow: hidden;
+    margin-top: .24rem;
+}
+.footer-bottom .footer-middle li {
+    font-size: 0;
+    float: left;
+    height: 0.3rem;
+    margin: 0 .34rem .08rem 0;
+}
+.footer-bottom .footer-middle li:hover {
+    border-bottom: .02rem solid #fff;
+}
+.footer-bottom .footer-middle a {
+    font-size: 0.14rem;
+    color: #ffffff;
+    height: 0.3rem;
+    line-height: 0.3rem;
+}
+.footer-bottom .footer-right {
+    font-size: 0;
+    float: left;
+}
+.footer-bottom .footer-right img {
+    margin-top: .05rem;
+}
+.copyright {
+    font-size: 0.12rem;
+    color: #ffffff;
+    border-top: 1px solid #32c086;
+}
+.copyright p {
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+    line-height: .3rem;
+}

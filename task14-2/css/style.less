@@ -1,0 +1,130 @@
+@charset "utf-8";
+html{
+  font-size: 100px;
+}
+body{
+  min-width: 1320px;
+  font-family: "Microsoft Yahei",sans-serif;
+  .bc(#fafafa);
+}
+@r:relative;
+@a:absolute;
+@f:fixed;
+.po(r){
+  position:@r;
+}
+.po(a){
+  position:@a;
+}
+.po(f){
+  position: @f;
+}
+.fs(@fs,@c:#fff) {
+  font-size: @fs;
+  color: @c;
+}
+.bc(@bc) {
+  background-color: @bc;
+}
+.box-s {
+  -webkit-box-shadow: .02rem .02rem .02rem #eeeded, -.02rem -.02rem .02rem #eeeded;
+  -moz-box-shadow:  .02rem .02rem .02rem #eeeded, -.02rem -.02rem .02rem #eeeded;
+  box-shadow: .02rem .02rem .02rem #eeeded, -.02rem -.02rem .02rem #eeeded;
+}
+.middle {
+  @h:1200px;
+  width: @h;
+  margin: 0 auto;
+}
+#banner {
+  background: url("../img/banner.png") no-repeat;
+  background-size: cover;
+  height: 2.5rem;
+}
+#main-content {
+  .middle;
+  overflow: hidden;
+  h2{
+    .fs(.16rem,#000);
+    line-height: .8rem;
+    strong{
+      .fs(.16rem,#32c086);
+    }
+  }
+}
+.content-left {
+  float: left;
+  clear:both;
+  margin-left: .02rem;
+  margin-right: .2rem;
+  width: 3.06rem;
+  .box-s;
+  h3 {
+    .fs(.16rem,#000);
+    border-bottom: 1px solid #e6e6e6;
+    line-height: .52rem;
+    text-align: center;
+  }
+  ul {
+    padding: .4rem 0 .04rem 1.35rem;
+  }
+  li{
+    font-size: 0;
+    margin-bottom: .36rem;
+    line-height: 1;
+    ::before {
+      content: ' ';
+      display: inline-block;
+      margin-right: .06rem;
+      width: .1rem;
+      height: .1rem;
+      border: 2px solid #ff640c;
+      border-radius: 50%;
+      vertical-align: middle;
+    }
+    &:hover {
+      a {
+        .fs(.14rem,#ff650e);
+      }
+      :before {
+        .bc(#f9a372);
+      }
+    }
+    a {
+      .fs(.14rem,#29b078);
+    }
+  }
+}
+.content-right {
+  float:right;
+  width: 8.7rem;
+  margin-right: .02rem;
+  margin-bottom: 2.3rem;
+  font-size: 0;
+  .box-s;
+  .bc(#fff);
+  figure {
+    overflow: hidden;
+    border-bottom: 1px solid #e6e6e6;
+    img {
+      float: left;
+      padding:.6rem .34rem .7rem .84rem;
+    }
+    p {
+      float:left;
+      width:5.64rem;
+      padding-top: .26rem;
+      .fs(.14rem,#999);
+      line-height: .3rem;
+    }
+  }
+  .detail-intro {
+    clear:both;
+    padding: .4rem .68rem 1.7rem .62rem;
+    p {
+      .fs(.14rem,#999);
+      line-height: .3rem;
+      margin-bottom: .4rem;
+    }
+  }
+}
