@@ -17,22 +17,22 @@ header {
 header .header-top {
   width: 1200px;
   margin: 0 auto;
-  height: 0.4rem;
-  line-height: 0.4rem;
+  height: 40px;
+  line-height: 40px;
   background-color: #ffffff;
 }
 header .header-left {
   float: left;
-  font-size: 0.14rem;
+  font-size: 14px;
   color: #29b078;
 }
 header .header-right li {
   font-size: 0;
-  height: .4rem;
+  height: 40px;
   float: right;
-  padding-top: .10rem;
+  padding-top: 10px;
   margin-left: .16rem;
-  width: .24rem;
+  width: 24px;
 }
 header .header-right img {
   max-width: 100%;
@@ -57,7 +57,7 @@ header .nav li:hover {
   border-bottom: .04rem solid #fff;
 }
 header .nav a {
-  font-size: 0.16rem;
+  font-size: 16px;
   color: #ffffff;
   line-height: 1rem;
 }
@@ -119,16 +119,16 @@ header .nav a {
   text-align: center;
 }
 #main-contain .feature li img {
-  max-width: 100%;
+  max-height: 100%;
   margin: .12rem 0 .33rem 0;
 }
 #main-contain .feature li h3 {
-  font-size: 0.18rem;
+  font-size: 18px;
   color: #000000;
   margin-bottom: .31rem;
 }
 #main-contain .feature li p {
-  font-size: 0.16rem;
+  font-size: 16px;
   color: #999999;
   text-align: left;
 }
@@ -153,12 +153,12 @@ header .nav a {
   margin: 0 .14rem 0 0;
 }
 #main-contain .feature .feature-4 span {
-  font-size: 0.18rem;
+  font-size: 18px;
   color: #26a26f;
 }
 #main-contain .feature .feature-4 p {
   margin-top: .1rem;
-  font-size: .18rem;
+  font-size: 18px;
 }
 #main-contain .feature .feature-4 .stu-number {
   margin-bottom: .32rem;
@@ -169,9 +169,12 @@ header .nav a {
 }
 #main-contain .step h3 {
   margin: 1rem 0 .56rem 0;
-  font-size: 0.18rem;
+  font-size: 18px;
   color: #000000;
   text-align: center;
+}
+#main-contain .step ul {
+  overflow: hidden;
 }
 #main-contain .step li {
   font-size: 0;
@@ -181,23 +184,23 @@ header .nav a {
 }
 #main-contain .step li .step-num {
   display: inline-block;
-  width: .7rem;
-  height: .7rem;
+  width: 0.7rem;
+  height: 0.7rem;
   border-radius: 50%;
   -webkit-box-shadow: .01rem .01rem .02rem #dcdcdc;
   -moz-box-shadow: .01rem .01rem .02rem #dcdcdc;
   box-shadow: .01rem .01rem .02rem #dcdcdc;
   margin-right: .16rem;
   text-align: center;
-  font-size: 0.18rem;
+  font-size: 18px;
   color: #29b078;
-  line-height: .7rem;
+  line-height: 0.7rem;
   vertical-align: middle;
 }
 #main-contain .step li .step-exp {
   display: inline-block;
   width: 1.53rem;
-  font-size: 0.14rem;
+  font-size: 14px;
   color: #999999;
   margin-right: .34rem;
   vertical-align: middle;
@@ -216,11 +219,12 @@ header .nav a {
   margin: 0;
 }
 #main-contain .stu-show {
+  clear: both;
   position: relative;
   text-align: center;
 }
 #main-contain .stu-show h3 {
-  font-size: 0.18rem;
+  font-size: 18px;
   color: #000000;
   margin-bottom: .7rem;
 }
@@ -243,15 +247,15 @@ header .nav a {
   margin: .16rem 0 .44rem 0;
 }
 #main-contain .stu-show figure figcaption {
-  font-size: 0.18rem;
+  font-size: 18px;
   color: #000000;
   margin-bottom: .26rem;
 }
 #main-contain .stu-show figure p {
   margin-bottom: .35rem;
-  font-size: 0.16rem;
+  font-size: 16px;
   color: #999999;
-  text-align: center;
+  text-align: left;
   line-height: .26rem;
 }
 #main-contain .stu-show .no-margin {
@@ -283,6 +287,8 @@ header .nav a {
   background-color: #29b078;
 }
 #main-contain .co-operate {
+  width: 100%;
+  clear: both;
   margin-bottom: .92rem;
 }
 #main-contain .co-operate ul {
@@ -292,7 +298,7 @@ header .nav a {
 }
 #main-contain .co-operate h3 {
   margin: 1.34rem 0 .68rem 0;
-  font-size: 0.18rem;
+  font-size: 18px;
   color: #000000;
   text-align: center;
 }
@@ -301,11 +307,15 @@ header .nav a {
   height: 1.78rem;
   float: left;
   text-align: center;
+  padding: .02rem;
 }
 #main-contain .co-operate li:hover {
   -webkit-box-shadow: 0.01rem 0.02rem 0.04rem #dcdcdc, -0.01rem -0.02rem 0.04rem #dcdcdc;
   -moz-box-shadow: 0.01rem 0.02rem 0.04rem #dcdcdc, -0.01rem -0.02rem 0.04rem #dcdcdc;
   box-shadow: 0.01rem 0.02rem 0.04rem #dcdcdc, -0.01rem -0.02rem 0.04rem #dcdcdc;
+}
+#main-contain .co-operate img {
+  max-width: 100%;
 }
 .link-wrap {
   background-color: #ffffff;
@@ -320,7 +330,7 @@ header .nav a {
 }
 .link h3 {
   padding: .2rem 0 .3rem 0;
-  font-size: 0.18rem;
+  font-size: 18px;
   color: #000000;
   text-align: center;
 }
@@ -334,7 +344,7 @@ header .nav a {
   border-bottom: .02rem solid #26a26f;
 }
 .link a {
-  font-size: 0.14rem;
+  font-size: 14px;
   color: #999999;
   line-height: .23rem;
 }
@@ -352,15 +362,15 @@ footer {
   background-color: #26a26f;
 }
 .footer-bottom {
+  overflow: hidden;
   width: 1200px;
   margin: 0 auto;
-  height: 1.7rem;
 }
 .footer-bottom h4 {
-  font-size: 0.16rem;
+  font-size: 16px;
   color: #ffffff;
   font-weight: normal;
-  padding-top: .38rem;
+  padding-top: 38px;
   line-height: 1;
 }
 .footer-bottom .footer-left {
@@ -368,9 +378,13 @@ footer {
   width: 3.57rem;
 }
 .footer-bottom .footer-left p {
-  font-size: 0.14rem;
+  font-size: 14px;
   color: #ffffff;
-  margin: .65rem 0 .32rem;
+  margin: 65px 0 32px;
+}
+.footer-bottom .footer-left p a {
+  font-size: 14px;
+  color: #ffffff;
 }
 .footer-bottom .footer-middle {
   float: left;
@@ -379,32 +393,32 @@ footer {
 }
 .footer-bottom .footer-middle ul {
   overflow: hidden;
-  margin-top: .24rem;
+  margin-top: 24px;
 }
 .footer-bottom .footer-middle li {
   font-size: 0;
   float: left;
-  height: 0.3rem;
-  margin: 0 .34rem .08rem 0;
+  height: 30px;
+  margin: 0 .34rem 8px 0;
 }
 .footer-bottom .footer-middle li:hover {
-  border-bottom: .02rem solid #fff;
+  border-bottom: 2px solid #fff;
 }
 .footer-bottom .footer-middle a {
-  font-size: 0.14rem;
+  font-size: 14px;
   color: #ffffff;
-  height: 0.3rem;
-  line-height: 0.3rem;
+  height: 30px;
+  line-height: 30px;
 }
 .footer-bottom .footer-right {
   font-size: 0;
   float: left;
 }
 .footer-bottom .footer-right img {
-  margin-top: .05rem;
+  margin-top: 5px;
 }
 .copyright {
-  font-size: 0.12rem;
+  font-size: 12px;
   color: #ffffff;
   border-top: 1px solid #32c086;
 }
@@ -412,5 +426,195 @@ footer {
   text-align: center;
   width: 1200px;
   margin: 0 auto;
-  line-height: .3rem;
+  line-height: 30px;
+}
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 75px;
+  }
+  body {
+    min-width: 980px;
+  }
+  header .header-top,
+  #main-contain,
+  #main-contain .step,
+  footer .link,
+  footer .footer-bottom,
+  footer .copyright p {
+    width: 900px;
+  }
+  header .nav {
+    width: 950px;
+  }
+  .footer-bottom .footer-middle {
+    width: 3.03rem;
+    margin-right: 2.1rem;
+  }
+  #banner .banner-img-wrap {
+    width: 82%;
+  }
+}
+@media screen and (max-width: 980px) {
+  html {
+    font-size: 75px;
+  }
+  body {
+    min-width: 650px;
+  }
+  header .header-top,
+  #main-contain,
+  #main-contain .step,
+  footer .link,
+  footer .footer-bottom,
+  footer .copyright p {
+    width: 640px;
+  }
+  header .nav {
+    width: 680px;
+  }
+  header .header-top .header-right li {
+    width: 20px;
+  }
+  .footer-bottom .footer-middle {
+    width: 2.93rem;
+    margin-right: .5rem;
+  }
+  #banner {
+    height: 4rem;
+  }
+  #banner .banner-img-wrap {
+    width: 82%;
+    height: 4rem;
+    margin-left: 10%;
+  }
+  #banner .banner-img-wrap img {
+    margin-top: 1.75rem;
+  }
+  #main-contain .feature .feature-1,
+  #main-contain .feature .feature-2,
+  #main-contain .feature .feature-3,
+  #main-contain .feature .feature-4 {
+    width: 300px;
+    height: 160px;
+    margin-bottom: 30px;
+  }
+  #main-contain .feature .feature-1,
+  #main-contain .feature .feature-3 {
+    margin-right: 40px;
+  }
+  #main-contain .feature .feature-2,
+  #main-contain .feature .feature-4 {
+    text-align: center;
+    margin-right: 0;
+  }
+  #main-contain .feature .feature-2 p,
+  #main-contain .feature .feature-4 p {
+    text-align: center;
+  }
+  #main-contain .step li {
+    width: 300px;
+    margin: 0 10px 30px 10px;
+  }
+  #main-contain .step .step-4 {
+    width: 300px;
+  }
+  #main-contain .step .step-4 img {
+    display: inline;
+    vertical-align: middle;
+  }
+  #main-contain .step .step-4 .step-exp {
+    width: 1.53rem;
+    margin-right: .34rem;
+  }
+  #main-contain .stu-show li {
+    width: 280px;
+    margin: 20px 18px;
+  }
+  #main-contain .stu-show .no-margin {
+    margin: 20px 18px;
+  }
+}
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 70px;
+  }
+  body {
+    min-width: 330px;
+  }
+  header .header-top,
+  #main-contain,
+  #main-contain .step,
+  footer .link,
+  footer .footer-bottom,
+  footer .copyright p {
+    width: 320px;
+  }
+  header .nav {
+    width: 330px;
+  }
+  header .header-top .header-right li {
+    width: 18px;
+  }
+  .footer-bottom .footer-middle {
+    width: 2.93rem;
+    margin-right: .5rem;
+  }
+  footer .footer-bottom .footer-right {
+    margin-bottom: 20px;
+  }
+  #banner {
+    height: 3rem;
+  }
+  #banner .banner-img-wrap {
+    width: 82%;
+    height: 3rem;
+    margin-left: 10%;
+  }
+  #banner .banner-img-wrap img {
+    width: .3rem;
+    margin-top: 1.35rem;
+  }
+  #main-contain .feature .feature-1,
+  #main-contain .feature .feature-2,
+  #main-contain .feature .feature-3,
+  #main-contain .feature .feature-4 {
+    width: 300px;
+    height: 160px;
+    margin: 0 10px 30px;
+  }
+  #main-contain .feature .feature-2,
+  #main-contain .feature .feature-4 {
+    text-align: center;
+    margin-right: 0;
+  }
+  #main-contain .feature .feature-2 p,
+  #main-contain .feature .feature-4 p {
+    text-align: center;
+  }
+  #main-contain .step li {
+    width: 300px;
+    margin: 0 0 30px 20px;
+  }
+  #main-contain .step .step-4 {
+    width: 300px;
+  }
+  #main-contain .step .step-4 img {
+    display: inline;
+    vertical-align: middle;
+  }
+  #main-contain .step .step-4 .step-exp {
+    width: 1.53rem;
+    margin-right: .34rem;
+  }
+  #main-contain .stu-show li {
+    width: 280px;
+    margin: 20px 18px;
+  }
+  #main-contain .stu-show .no-margin {
+    margin: 20px 18px;
+  }
+  #main-contain .co-operate li {
+    width: 316px;
+    padding: 2px;
+  }
 }
