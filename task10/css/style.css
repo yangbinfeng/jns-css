@@ -124,6 +124,10 @@ form .radio:checked + .radio-style:after {
 .step-3 form {
 	line-height: 1.4rem;
 }
+.step-3 .option {
+	display: inline-block;
+	width: 160px;
+}
 form select {
 	position: absolute;
 	top: 50%; right: .18rem;
@@ -131,7 +135,6 @@ form select {
 	padding: .04rem 0 .04rem .1rem;
     width: 10%;
     height: .4rem;
-    border:none;
     border: .01rem solid #b9b9b9;
     font-size: .14rem;
     line-height: .3rem;
@@ -160,5 +163,66 @@ form select {
 	font-weight: 600;
 	color: #fff;
 	background-color: #e34e4f;
+}
+
+@media screen and (max-width: 980px) {
+	form select {
+		position: relative;
+		display: block;
+		width: 95px;
+	}
+	.step-3 form select {
+		width: 125px;
+	}
+	.step-2 .length {
+		 margin-left: .3rem;
+	 }
+}
+
+@media screen and (max-width: 810px) {
+	.footer-top .footer-left,
+	.footer-top .footer-middle,
+	.footer-top .footer-right{
+		width:2.3rem;
+	}
+	.step-2 .height {
+		margin-left: 1.05rem;
+	}
+}
+@media screen and (max-width: 535px) {
+	.step-2 .width,
+	.step-2 .height{
+		margin-left: 1rem;
+	}
+	.footer-top .footer-left,
+	 .footer-top .footer-middle,
+	 .footer-top .footer-right{
+		 margin-left: 20%;
+	 }
+	.footer-top .footer-middle ul {
+		padding-left: 0;
+	}
+	.footer-top .footer-middle ul li {
+		margin-left: 0;
+	}
+	footer .copyright p {
+		text-align: left;
+	}
+}
+@media screen and (max-width: 400px) {
+	.step-1 span {
+		margin-right: 1rem;
+	}
+	.step-1 label {
+		margin-left: .5rem;
+	}
+}
+@media screen and (max-width: 360px) {
+	.step-3 .option {
+		margin-left: 30px;
+	}
+	.step-3 form {
+		line-height: 75px;
+	}
 }
 

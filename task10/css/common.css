@@ -1,7 +1,9 @@
 html {
 	font-size: 100px;
 }
-
+body {
+	min-width: 320px;
+}
 /*头部样式*/
 header {
 	overflow: hidden;
@@ -147,4 +149,8 @@ footer .copyright {
 	line-height: .32rem;
 	background-color: #1277dc;
 	color: #fff;
+}
+footer .copyright p {
+	width:80%;
+	margin:0 10%;
 }
