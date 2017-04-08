@@ -1,0 +1,51 @@
+
+header {
+    background-color: #ffffff;
+}
+header .header-top {
+    width: 1200px;
+    margin: 0 auto;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ffffff;
+}
+header .header-left {
+    float: left;
+    font-size: 14px;
+    color: #29b078;
+}
+header .header-right li {
+    font-size: 0;
+    height: 40px;
+    float: right;
+    padding-top: 10px;
+    margin-left: .16rem;
+    width: 24px;
+}
+header .header-right img {
+    max-width: 100%;
+}
+header .nav-wrap {
+    width: 100%;
+    background-color: #29b078;
+}
+header .nav {
+    width: 1268px;
+    margin: 0 auto;
+    height: 1rem;
+    font-size: 0;
+}
+header .nav li {
+    float: right;
+    padding: 0 .34rem;
+    height: 1rem;
+    font-size: 0;
+}
+header .nav li:hover {
+    border-bottom: .04rem solid #fff;
+}
+header .nav a {
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 1rem;
+}

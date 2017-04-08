@@ -2,15 +2,15 @@ footer {
     background-color: #26a26f;
 }
 .footer-bottom {
+    overflow: hidden;
     width: 1200px;
     margin: 0 auto;
-    height: 1.7rem;
 }
 .footer-bottom h4 {
-    font-size: 0.16rem;
+    font-size: 16px;
     color: #ffffff;
     font-weight: normal;
-    padding-top: .38rem;
+    padding-top: 38px;
     line-height: 1;
 }
 .footer-bottom .footer-left {
@@ -18,9 +18,13 @@ footer {
     width: 3.57rem;
 }
 .footer-bottom .footer-left p {
-    font-size: 0.14rem;
+    font-size: 14px;
     color: #ffffff;
-    margin: .65rem 0 .32rem;
+    margin: 65px 0 32px;
+}
+.footer-bottom .footer-left p a {
+    font-size: 14px;
+    color: #ffffff;
 }
 .footer-bottom .footer-middle {
     float: left;
@@ -29,32 +33,32 @@ footer {
 }
 .footer-bottom .footer-middle ul {
     overflow: hidden;
-    margin-top: .24rem;
+    margin-top: 24px;
 }
 .footer-bottom .footer-middle li {
     font-size: 0;
     float: left;
-    height: 0.3rem;
-    margin: 0 .34rem .08rem 0;
+    height: 30px;
+    margin: 0 .34rem 8px 0;
 }
 .footer-bottom .footer-middle li:hover {
-    border-bottom: .02rem solid #fff;
+    border-bottom: 2px solid #fff;
 }
 .footer-bottom .footer-middle a {
-    font-size: 0.14rem;
+    font-size: 14px;
     color: #ffffff;
-    height: 0.3rem;
-    line-height: 0.3rem;
+    height: 30px;
+    line-height: 30px;
 }
 .footer-bottom .footer-right {
     font-size: 0;
     float: left;
 }
 .footer-bottom .footer-right img {
-    margin-top: .05rem;
+    margin-top: 5px;
 }
 .copyright {
-    font-size: 0.12rem;
+    font-size: 12px;
     color: #ffffff;
     border-top: 1px solid #32c086;
 }
@@ -62,5 +66,5 @@ footer {
     text-align: center;
     width: 1200px;
     margin: 0 auto;
-    line-height: .3rem;
+    line-height: 30px;
 }
