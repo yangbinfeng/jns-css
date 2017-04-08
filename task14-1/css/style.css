@@ -618,3 +618,14 @@ footer {
     padding: 2px;
   }
 }
+@media screen and (max-width: 450px){
+  #banner {
+    background-position: -50px;
+  }
+}
+
+@media screen and (max-width: 375px){
+  #banner {
+    background-position: -80px;
+  }
+}

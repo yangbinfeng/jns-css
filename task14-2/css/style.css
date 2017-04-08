@@ -223,7 +223,10 @@ body {
   }
   #banner {
     height: 1.5rem;
-    background-size: contain;
+    background-size: 100% 100%;
+  }
+  #banner .banner-img-wrap {
+    height: 1.5rem;
   }
   #main-content {
     width: 320px;
@@ -258,5 +261,13 @@ body {
     padding: 0;
     margin: 20px 30px 20px;
     text-align: left;
+  }
+}
+@media screen and (max-width: 480px) {
+  #banner {
+    height: 1rem;
+  }
+  #banner .banner-img-wrap {
+    height: 1rem;
   }
 }
